@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-// მთავარი გვერდი
+// მთავარი გვერდი yhgbik
 
 export default function Home() {
   return (
