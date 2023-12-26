@@ -2,9 +2,10 @@ import Image from "next/image";
 
 const Main = () => {
   return (
-    <body className="font-sans antialiased">
-      <div className="grid grid-cols-2 gap-4">
-        <div className="group relative overflow-hidden row-span-2">
+    <div className="flex">
+      {/* Left column with the large image */}
+      <div className="w-70 opacity-80 hover:opacity-100">
+        <div className="group relative overflow-hidden">
           <Image
             src="/home.jpg"
             alt="main-image"
@@ -23,24 +24,38 @@ const Main = () => {
             className="absolute top-10 left-10"
           />
         </div>
-        <div className="flex flex-col grid-cols-8">
+      </div>
+
+      {/* Right column with two images and text */}
+      <div className="w-[40%]">
+        <div className="group relative overflow-hidden opacity-80 hover:opacity-100">
           <Image
             src="/ice-white.jpg"
             alt="ice-white"
             width={300}
             height={300}
-            className="mb-4 h-[300px]"
+            objectFit="cover"
+            className="h-[300px] w-full transition-transform duration-500 ease-in-out transform group-hover:scale-110 object-cover"
           />
+          <p className="absolute bottom-10 left-0 right-0 text-white text-center pt-4 text-2xl">
+            სწავლება
+          </p>
+        </div>
+        <div className="group relative overflow-hidden opacity-80 hover:opacity-100">
           <Image
             src="/ice.jpg"
             alt="ice"
             width={300}
             height={300}
-            className="h-[300px]"
+            objectFit="cover"
+            className="h-[300px] w-full transition-transform duration-500 ease-in-out transform group-hover:scale-110 object-cover"
           />
+          <p className="absolute bottom-10 left-0 right-0 text-white text-center pt-4 text-2xl">
+            მომსახურება
+          </p>
         </div>
       </div>
-    </body>
+    </div>
   );
 };
 
