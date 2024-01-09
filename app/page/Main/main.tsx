@@ -6,7 +6,7 @@ import MainService from "./MainService";
 
 const Main = () => {
   return (
-    <main className="flex">
+    <article className="flex">
       <section className="w-70 opacity-80 hover:opacity-100">
         <div className="group relative overflow-hidden">
           <Image
@@ -33,7 +33,7 @@ const Main = () => {
         <MainStudy />
         <MainService />
       </section>
-    </main>
+    </article>
   );
 };
 

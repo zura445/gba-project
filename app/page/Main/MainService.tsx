@@ -5,18 +5,20 @@ import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
 
 const MainService = () => {
-  let [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
-  function closeModal() {
+  //ES 6
+  const closeModal = () => {
     setIsOpen(false);
-  }
+  };
 
+  // ES 5
   function openModal() {
     setIsOpen(true);
   }
 
   return (
-    <div>
+    <>
       <button type="button" onClick={openModal} className="w-full">
         <div className="group relative overflow-hidden opacity-80 hover:opacity-100 w-full">
           <Image
@@ -58,28 +60,40 @@ const MainService = () => {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
-                  <Dialog.Title
-                    as="h3"
-                    className="text-lg font-medium leading-6 text-gray-900"
-                  >
-                    Payment successful
-                  </Dialog.Title>
-                  <div className="mt-2">
-                    <p className="text-sm text-gray-500">
-                      Your payment has been successfully submitted. We’ve sent
-                      you an email with all of the details of your order.
-                    </p>
+                <Dialog.Panel className="w-full max-w-[40%] bg-black opacity-80 rounded-lg">
+                  <div className="flex justify-between items-center mx-4 mt-4 pb-4">
+                    <Dialog.Title as="h3" className="text-lg font-medium">
+                      <h1 className="text-3xl">
+                        ბარმენთა ასოციაციის მომსახურება
+                      </h1>
+                    </Dialog.Title>
+                    <button
+                      type="button"
+                      className="inline-flex justify-center rounded-md bg-white px-2 py-1 font-medium text-black"
+                      onClick={closeModal}
+                    >
+                      X
+                    </button>
+                  </div>
+                  <div className="transform rounded-2xl bg-black p-6 text-left">
+                    <Image
+                      src="/bartender.jpg"
+                      alt="bartender"
+                      width={300}
+                      height={300}
+                      objectFit="cover"
+                    />
                   </div>
 
                   <div className="mt-4">
-                    <button
-                      type="button"
-                      className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
-                      onClick={closeModal}
-                    >
-                      Got it, thanks!
-                    </button>
+                    <ol className="list-decimal ml-6 text-left">
+                      <li>ბარმენების მომსახურებას</li>
+                      <li>ივენთის დაგეგმა</li>
+                      <li>სრული სერვისის დაგეგმას და განხორციელებას</li>
+                    </ol>
+                  </div>
+                  <div className="text-left py-2 ml-2">
+                    დეტალებისთვის დაგვიკავშირდით ტელ: 597 000 540
                   </div>
                 </Dialog.Panel>
               </Transition.Child>
@@ -87,7 +101,7 @@ const MainService = () => {
           </div>
         </Dialog>
       </Transition>
-    </div>
+    </>
   );
 };
 
