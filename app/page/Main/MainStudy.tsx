@@ -1,4 +1,5 @@
-// MainStUdy.tsx
+"use client";
+
 import React, { useState } from "react";
 import Modal from "@/app/components/Modal";
 import Image from "next/image";

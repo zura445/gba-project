@@ -36,14 +36,14 @@ const Modal: React.FC<ModalProps> = ({ closeModal, isOpen, children }) => {
               leaveTo="opacity-0 scale-95"
             >
               <Dialog.Panel className="w-full max-w-[50%] bg-black opacity-80 rounded-lg absolute">
-                <button
+                {/* <button
                   type="button"
-                  className="rounded-md bg-white px-2 py-1 font-medium text-black top-0 left-[360px] relative"
+                  className="rounded-md bg-white px-2 py-1 font-medium text-black top-0 left-[360p] relative"
                   onClick={closeModal}
                 >
                   X
-                </button>
-                <div className="overflow-y-scroll scrollbar-thin scrollbar-thumb-red-800 scrollbar-track-gray-100 w-full h-[500px] transform rounded-2xl bg-black px-6 pb-6 text-left">
+                </button> */}
+                <div className="overflow-y-scroll scrollbar-thin scrollbar-thumb-red-800 scrollbar-track-gray-100 w-full h-[500px] transform rounded-2xl bg-black p-6 text-left">
                   {children}
                 </div>
               </Dialog.Panel>
