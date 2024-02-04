@@ -1,0 +1,35 @@
+[
+  {
+    "title": "სიახლეები",
+    "imageSrc": "/news-image.jpg",
+    "modalTitle": "საქართველოს პირველობა 2021",
+    "modalDescription": "დეტალები/წესები:",
+    "modalSteoOne": "1. მომზადდება მხოლოდ კლასიკური კოქტეილები",
+    "modalStepTwo": "2. კონკურსანტი შეფასება როგორც კოქტეილის გემოვნური თვისებებით ასევე მომზადების ტექნიკით",
+    "modalComponent": "newsComponent"
+  },
+  {
+    "title": "გალერია",
+    "imageSrc": "/break-ice.jpg",
+    "modalTitle": "გალერია",
+    "modalSteoOne": "ფოტო",
+    "modalStepTwo": "ვიდეო"
+  },
+  {
+    "title": "კოქტეილები",
+    "imageSrc": "/coctail.jpg",
+    "modalTitle": "zura"
+  },
+  {
+    "title": "ბარის ისტორია",
+    "imageSrc": "/bar.jpg"
+  },
+  {
+    "title": "პარტნიორები",
+    "imageSrc": "/partner.jpg"
+  },
+  {
+    "title": "ჩვენს შესახებ",
+    "imageSrc": "/our.jpg"
+  }
+]
