@@ -1,9 +1,10 @@
 // CategoryItem.tsx
 import React, { useState } from "react";
-import News from "./CategoryModal";
 import ProductComponentsDesc from "./ProductComponentsDesc";
 import Image from "next/image";
-import newsComponent from "../newsComponent";
+import Modal from "@/app/components/Modal";
+import Gallery from "./modalComponents/Gallery";
+import News from "./modalComponents/News";
 
 // ბოდის ვიზუალი
 
@@ -14,28 +15,22 @@ type CategoryItemProps = {
 
 const CategoryItem: React.FC<CategoryItemProps> = ({ category, index }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const [modalKey, setModalKey] = useState<string>("newsComponent");
 
   const closeModal = () => {
     setIsOpen(false);
   };
 
-  const openModal = () => {
+  const openModal = (modalComponent: any) => {
+    setModalKey(modalComponent);
     setIsOpen(true);
-  };
-
-  type ComponentsType = {
-    [key: string]: React.FC<{}>;
-  };
-
-  const Components: ComponentsType = {
-    newsComponent: newsComponent,
   };
 
   return (
     <>
       <div
         className="group relative overflow-hidden opacity-80 hover:opacity-100 cursor-pointer"
-        onClick={openModal}
+        onClick={() => openModal(category.modalComponent)}
       >
         <Image
           src={category.imageSrc}
@@ -48,14 +43,26 @@ const CategoryItem: React.FC<CategoryItemProps> = ({ category, index }) => {
           {category.title}
         </p>
       </div>
-      <News closeModal={closeModal} isOpen={isOpen} category={category}>
-        {React.createElement(
-          Components[category.modalComponent || "newsComponent"],
-          { key: index }
-        )}
-      </News>
+
+      <Modal closeModal={closeModal} isOpen={isOpen}>
+        <SubComponent modalKey={modalKey} />
+      </Modal>
     </>
   );
+};
+
+//როცა ახალ ფაილს შევქმნი აქაც უნდა ჩავამატო
+
+const SubComponent = ({ modalKey }: string | any) => {
+  switch (modalKey) {
+    case "newsComponent":
+      return <News />;
+    case "galleryComponent":
+      return <Gallery />;
+
+    default:
+      return <></>;
+  }
 };
 
 export default CategoryItem;

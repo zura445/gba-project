@@ -13,23 +13,28 @@
     "imageSrc": "/break-ice.jpg",
     "modalTitle": "გალერია",
     "modalSteoOne": "ფოტო",
-    "modalStepTwo": "ვიდეო"
+    "modalStepTwo": "ვიდეო",
+    "modalComponent": "galleryComponent"
   },
   {
     "title": "კოქტეილები",
     "imageSrc": "/coctail.jpg",
-    "modalTitle": "zura"
+    "modalTitle": "zura",
+    "modalComponent": "galleryComponent"
   },
   {
     "title": "ბარის ისტორია",
-    "imageSrc": "/bar.jpg"
+    "imageSrc": "/bar.jpg",
+    "modalComponent": "galleryComponent"
   },
   {
     "title": "პარტნიორები",
-    "imageSrc": "/partner.jpg"
+    "imageSrc": "/partner.jpg",
+    "modalComponent": "galleryComponent"
   },
   {
     "title": "ჩვენს შესახებ",
-    "imageSrc": "/our.jpg"
+    "imageSrc": "/our.jpg",
+    "modalComponent": "galleryComponent"
   }
 ]
