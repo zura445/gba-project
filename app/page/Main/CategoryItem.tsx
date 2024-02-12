@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import ProductComponentsDesc from "./ProductComponentsDesc";
 import Image from "next/image";
 import Modal from "@/app/components/Modal";
-import Gallery from "./modalComponents/Gallery";
+import Gallery from "../../components/Gallery";
 import News from "./modalComponents/News";
 
 // ბოდის ვიზუალი

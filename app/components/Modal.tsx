@@ -43,7 +43,7 @@ const Modal: React.FC<ModalProps> = ({ closeModal, isOpen, children }) => {
                 >
                   X
                 </button> */}
-                <div className="overflow-y-scroll scrollbar-thin scrollbar-thumb-red-800 scrollbar-track-gray-100 w-full h-[500px] transform rounded-2xl bg-black p-6 text-left">
+                <div className="overflow-y-scroll scrollbar-thin scrollbar-thumb-red-800 scrollbar-track-gray-100 w-full h-[600px] transform rounded-2xl bg-black p-6 text-left">
                   {children}
                 </div>
               </Dialog.Panel>
