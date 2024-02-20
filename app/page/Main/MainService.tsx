@@ -18,19 +18,19 @@ const MainService = () => {
   return (
     <>
       <div className="group relative overflow-hidden opacity-80 hover:opacity-100 w-full">
-        <button type="button" onClick={openModal} className="w-full">
+        <div onClick={openModal} className="w-full">
           <Image
             src="/ice.jpg"
             alt="ice"
             width={300}
             height={300}
             objectFit="cover"
-            className="h-[290px] w-full transition-transform duration-500 ease-in-out transform group-hover:scale-110 object-cover"
+            className="h-[300px] w-full transition-transform duration-500 ease-in-out transform group-hover:scale-110 object-cover"
           />
           <p className="absolute bottom-10 left-0 right-0 text-white text-center pt-4 text-2xl">
             მომსახურება
           </p>
-        </button>
+        </div>
       </div>
 
       <Modal closeModal={closeModal} isOpen={isOpen}>

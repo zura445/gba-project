@@ -28,7 +28,7 @@ const MainStUdy = () => {
   return (
     <section>
       <div className="group relative overflow-hidden opacity-80 hover:opacity-100 w-full">
-        <button type="button" onClick={openModal} className="w-full">
+        <div onClick={openModal} className="w-full">
           <Image
             src="/ice-white.jpg"
             alt="ice-white"
@@ -40,7 +40,7 @@ const MainStUdy = () => {
           <p className="absolute bottom-10 left-0 right-0 text-white text-center pt-4 text-2xl">
             სწავლება
           </p>
-        </button>
+        </div>
       </div>
 
       <Modal closeModal={closeModal} isOpen={isOpen}>
