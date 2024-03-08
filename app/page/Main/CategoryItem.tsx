@@ -4,6 +4,7 @@ import ProductComponentsDesc from "./ProductComponentsDesc";
 import Image from "next/image";
 import Modal from "@/app/components/Modal";
 import Gallery from "../../components/Gallery";
+import Cocktail from "../Main/Cocktail";
 import News from "./modalComponents/News";
 
 // ბოდის ვიზუალი
@@ -59,6 +60,8 @@ const SubComponent = ({ modalKey }: string | any) => {
       return <News />;
     case "galleryComponent":
       return <Gallery />;
+    case "CoclailComponent":
+      return <Cocktail />;
 
     default:
       return <></>;
