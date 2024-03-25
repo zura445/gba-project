@@ -34,7 +34,7 @@ const MainService = () => {
       </div>
 
       <Modal closeModal={closeModal} isOpen={isOpen}>
-        <h1 className="text-3xl">ბარმენთა ასოციაციის მომსახურება</h1>{" "}
+        <h1 className="text-3xl text-white">ბარმენთა ასოციაციის მომსახურება</h1>{" "}
         <div className="transform rounded-2xl bg-black p-6 text-left">
           <Image
             src="/bartender.jpg"
@@ -45,13 +45,13 @@ const MainService = () => {
           />
         </div>
         <div className="mt-4">
-          <ol className="list-decimal ml-6 text-left">
+          <ol className="list-decimal ml-6 text-left text-white">
             <li>ბარმენების მომსახურებას</li>
             <li>ივენთის დაგეგმა</li>
             <li>სრული სერვისის დაგეგმას და განხორციელებას</li>
           </ol>
         </div>
-        <div className="text-left py-2 ml-2">
+        <div className="text-left py-2 ml-2 text-white">
           დეტალებისთვის დაგვიკავშირდით ტელ: 597 000 540
         </div>
       </Modal>
