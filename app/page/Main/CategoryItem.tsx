@@ -60,7 +60,7 @@ const SubComponent = ({ modalKey }: string | any) => {
       return <News />;
     case "galleryComponent":
       return <Gallery />;
-    case "CoclailComponent":
+    case "cocktailComponent":
       return <Cocktail />;
 
     default:

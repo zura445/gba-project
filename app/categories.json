@@ -19,8 +19,9 @@
   {
     "title": "კოქტეილები",
     "imageSrc": "/coctail.jpg",
-    "modalTitle": "zura",
-    "modalComponent": " "
+    "cocktailTitle": "77 კლასიკური კოქტეილი",
+    "cocktailQuestion": "რას ნიშნავს კლასიკური კოქტეილი?",
+    "cocktailAnsver": "ეს არის (IBA-ს) მსოფლიო ბარმენთა ასოციაციის მიერ აღიარებული კოქტეილები"
   },
   {
     "title": "ბარის ისტორია",
