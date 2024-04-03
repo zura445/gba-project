@@ -16,6 +16,19 @@
   }
 }
 
+.accordion-details {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
+.list-ol {
+  list-style-type: decimal;
+  margin-left: 50px;
+}
+
+.text-white {
+  color: white;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(

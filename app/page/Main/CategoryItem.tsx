@@ -4,7 +4,7 @@ import ProductComponentsDesc from "./ProductComponentsDesc";
 import Image from "next/image";
 import Modal from "@/app/components/Modal";
 import Gallery from "../../components/Gallery";
-import Cocktail from "../Main/Cocktail";
+import Cocktail from "./cocktail/Cocktail";
 import News from "./modalComponents/News";
 
 // ბოდის ვიზუალი

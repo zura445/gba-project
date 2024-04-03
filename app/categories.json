@@ -19,9 +19,6 @@
   {
     "title": "კოქტეილები",
     "imageSrc": "/coctail.jpg",
-    "categoryTitle": "77 კლასიკური კოქტეილი",
-    "cocktailQuestion": "რას ნიშნავს კლასიკური კოქტეილი?",
-    "cocktailAnsver": "ეს არის (IBA-ს) მსოფლიო ბარმენთა ასოციაციის მიერ აღიარებული კოქტეილები",
     "modalComponent": "cocktailComponent"
   },
   {
