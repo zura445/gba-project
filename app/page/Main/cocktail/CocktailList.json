@@ -1192,7 +1192,7 @@
   {
     "name": "ლონგაილენ აის თი (LONGISLAND ICED TEA)",
     "Image": "longisland-iced-tea.jpg",
-    "altName": "Bloody-Mary-cocktail",
+    "altName": "longisland-iced-tea-cocktail",
     "ingredients": [
       {
         "value": "ტეკილა Sauza Blanco - 15 მლ"
@@ -1227,6 +1227,200 @@
     "glassResponse": "Highball",
     "category": "კატეგორია: ",
     "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "კაიპირინია (CAIPIRINHA)",
+    "Image": "caipirinha-5.jpg",
+    "altName": "caipirinha-cocktail",
+    "ingredients": [
+      {
+        "value": "Cachacha 51 - 50 მლ"
+      },
+      {
+        "value": "ლაიმი - ნახევარი"
+      },
+      {
+        "value": "შაქარი - 2 ბარის კოვზი"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build & Muddle",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლაიმი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Old Fashioned",
+    "category": "კატეგორია: ",
+    "categoryResponse": "კოქტეილი მთელი დღისთვის",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "შამპან კოქტეილი (CHAMPAGNE COCKTAIL)",
+    "Image": "champagne_cocktail.jpg",
+    "altName": "champagne-cocktail",
+    "ingredients": [
+      {
+        "value": "Martini Asti Brut - 90 მლ"
+      },
+      {
+        "value": "კონიაკი Remy Martin V.S. - 10 მლ"
+      },
+      {
+        "value": "Angostura Bitter - 2 დეში"
+      },
+      {
+        "value": "შაქარი - 1 კუბიკი"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ფორთოხლის ცედრა და ალუბალი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "შამპანიურის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "გაზიანი კოქტეილი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "კოსმოპოლიტენი (COSMOPOLITAN)",
+    "Image": "cosmopolitan.jpg",
+    "altName": "cosmopolitan-cocktail",
+    "ingredients": [
+      {
+        "value": "ვოდკა Absolut Citron - 40 მლ"
+      },
+      {
+        "value": "ლიქიორი Cointreu - 10 მლ"
+      },
+      {
+        "value": "ლიმნის წვენი - 15 მლ"
+      },
+      {
+        "value": "შტოშის წვენი - 30 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ცედრა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "კოქტეილი მთელი დღისთვის",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "კუბა ლიბრე (CUBA LIBRE)",
+    "Image": "cuba-libre.jpg",
+    "altName": "cuba-libre-cocktail",
+    "ingredients": [
+      {
+        "value": "რომი Bacardi Superior - 50 მლ"
+      },
+      {
+        "value": "Coca-Cola - 120 მლ"
+      },
+      {
+        "value": "ლიმნის წვენი - 10 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ნაჭერი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "ფრანგული კავშირი (FRENCH CONNECTION)",
+    "Image": "french-connection.jpg",
+    "altName": "french-connection-cocktail",
+    "ingredients": [
+      {
+        "value": "კონიაკი Remy Martin V.S.O.P. - 35 მლ"
+      },
+      {
+        "value": "ლიქიორი Amaretto Disaronno - 35 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ცედრა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Old Fashioned",
+    "category": "კატეგორია: ",
+    "categoryResponse": "დიჟესტივი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "ნათლიმამა (GODFATHER)",
+    "Image": "Godfather.jpg",
+    "altName": "Godfather-cocktail",
+    "ingredients": [
+      {
+        "value": "კონიაკი Remy Martin V.S.O.P. - 35 მლ"
+      },
+      {
+        "value": "ლიქიორი Amaretto Disaronno - 35 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ცედრა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Old Fashioned",
+    "category": "კატეგორია: ",
+    "categoryResponse": "დიჟესტივი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "ნათლიმამა (GODFATHER)",
+    "Image": "Godfather.jpg",
+    "altName": "Godfather-cocktail",
+    "ingredients": [
+      {
+        "value": "ვისკი Dewar's White Label - 35 მლ"
+      },
+      {
+        "value": "ლიქიორი Amaretto Disaronno - 35 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ცედრა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Old Fashioned",
+    "category": "კატეგორია: ",
+    "categoryResponse": "დიჟესტივი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "ნათლიდედა (GODMOTHER)",
+    "Image": "godmother.jpg",
+    "altName": "godmother-cocktail",
+    "ingredients": [
+      {
+        "value": "ვოდკა Eristoff - 35 მლ"
+      },
+      {
+        "value": "ლიქიორი Amaretto Disaronno - 35 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ცედრა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Old Fashioned",
+    "category": "კატეგორია: ",
+    "categoryResponse": "დიჟესტივი",
     "modalComponent": "cocktailComponent"
   }
 ]
