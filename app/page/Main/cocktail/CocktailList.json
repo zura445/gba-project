@@ -1363,28 +1363,6 @@
     "altName": "Godfather-cocktail",
     "ingredients": [
       {
-        "value": "კონიაკი Remy Martin V.S.O.P. - 35 მლ"
-      },
-      {
-        "value": "ლიქიორი Amaretto Disaronno - 35 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Build",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლიმნის ცედრა",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Old Fashioned",
-    "category": "კატეგორია: ",
-    "categoryResponse": "დიჟესტივი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "ნათლიმამა (GODFATHER)",
-    "Image": "Godfather.jpg",
-    "altName": "Godfather-cocktail",
-    "ingredients": [
-      {
         "value": "ვისკი Dewar's White Label - 35 მლ"
       },
       {
@@ -1421,6 +1399,265 @@
     "glassResponse": "Old Fashioned",
     "category": "კატეგორია: ",
     "categoryResponse": "დიჟესტივი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "ოქროს ოცნება (GOLDEN DREAM)",
+    "Image": "Golden-Dream.jpg",
+    "altName": "Golden-Dream-cocktail",
+    "ingredients": [
+      {
+        "value": "ლიქიორი Galliano - 20 მლ"
+      },
+      {
+        "value": "ლიქიორი Triple sec - 20 მლ"
+      },
+      {
+        "value": "ფორთოხლის წვენი - 20 მლ"
+      },
+      {
+        "value": "ნაღები - 10 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ფორთოხალი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "დიჟესტივი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "კალია (GRASSHOPPER)",
+    "Image": "Grasshopper.jpg",
+    "altName": "Grasshopper-cocktail",
+    "ingredients": [
+      {
+        "value": "ლიქიორი Crem De Cacao White - 30 მლ"
+      },
+      {
+        "value": "ლიქიორი Creme De Menthe - 30 მლ"
+      },
+      {
+        "value": "ნაღები - 20 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "დიჟესტივი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "ფრანგული მარტინი (FRENCH MARTINI)",
+    "Image": "french-martini.jpg",
+    "altName": "french-martini-cocktail",
+    "ingredients": [
+      {
+        "value": "ვოდკა Eristof - 45 მლ"
+      },
+      {
+        "value": "ლიქიორი Raspberry - 15 მლ"
+      },
+      {
+        "value": "ანანასის წვენი - 15 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Stir & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ცედრა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "აპერიტივი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "კამიკაძე (KAMIKAZE)",
+    "Image": "Kamikaze.jpg",
+    "altName": "Kamikaze-cocktail",
+    "ingredients": [
+      {
+        "value": "ვოდკა Finlandia - 30 მლ"
+      },
+      {
+        "value": "ლიქიორი Triple Sec - 30 მლ"
+      },
+      {
+        "value": "ლიმნის წვენი - 30 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ნაჭერი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "კოქტეილი მთელი დღისთვის",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "ფრანგული 75 (FRENCH 75)",
+    "Image": "french-75.jpg",
+    "altName": "french-75-cocktail",
+    "ingredients": [
+      {
+        "value": "ჯინი Beefeater - 30 მლ"
+      },
+      {
+        "value": "ლიმნის წვენი - 15 მლ"
+      },
+      {
+        "value": "შაქრის სიროფი - 2 დეში"
+      },
+      {
+        "value": "შამპანიური - 60 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ცედრა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "შამპანიურის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "გაზიანი კოქტეილი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "ჰარვი ვოლბერგერი (HARVEY WALLBANGER)",
+    "Image": "harvey-wallbanger.jpg",
+    "altName": "harvey-wallbanger-cocktail",
+    "ingredients": [
+      {
+        "value": "ვოდკა Finlandia - 45 მლ"
+      },
+      {
+        "value": "ლიქიორი Galliano - 15 მლ"
+      },
+      {
+        "value": "ფორთოხლის წვენი - 2 დეში"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ფორთოხლის ნაჭერი და ალუბალია",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "კოქტეილი მთელი დღისთვის",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "ჰემინგუეი სპეშალ (HEMINGWAY SPECIAL)",
+    "Image": "hemingway.jpg",
+    "altName": "hemingway-cocktail",
+    "ingredients": [
+      {
+        "value": "რომი Bacardi Superior - 60 მლ"
+      },
+      {
+        "value": "ლიქიორი Maraschino - 15 მლ"
+      },
+      {
+        "value": "გრეიფრუტის წვენი - 40 მლ"
+      },
+      {
+        "value": "ლაიმის წვენი - 15 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ცედრა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეოლის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "კოქტეილი მთელი დღისთვის",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "ცხენის კისერი (HORSE'S NECK)",
+    "Image": "Horses-Neck.jpg",
+    "altName": "Horses-Neck-cocktail",
+    "ingredients": [
+      {
+        "value": "კონიაკი Gautier - 40 მლ"
+      },
+      {
+        "value": "Ginger Ale - 120 მლ"
+      },
+      {
+        "value": "Angostura Bitter - 1 დეში"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ცედრა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "ირლანდიური ყავა (IRISH COFFEE)",
+    "Image": "Irish-Coffee.jpg",
+    "altName": "Irish-Coffee-cocktail",
+    "ingredients": [
+      {
+        "value": "ცხელი ყავა ესპრესო - 80 მლ"
+      },
+      {
+        "value": "ვისკი Jameson - 120 მლ"
+      },
+      {
+        "value": "შაქარი - 1 ჩ.კ."
+      },
+      {
+        "value": "ნაღები - 30 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ცედრა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "ირლანდიური ყავის ჭიქა",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ცხელი სასმელი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "კირი (KIR)",
+    "Image": "kir.jpg",
+    "altName": "kir-cocktail",
+    "ingredients": [
+      {
+        "value": "თეთრი მშრალი ღვინო - 90 მლ"
+      },
+      {
+        "value": "ლიქიორი Creme De Cassis - 10 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "მალინა ან მაყვალი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "იშამპანიურის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "აპერიტივი",
     "modalComponent": "cocktailComponent"
   }
 ]
