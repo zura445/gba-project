@@ -636,31 +636,6 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ნეგრონი (NEGRON)",
-    "Image": "negroni.jpg",
-    "altName": "negroni-cocktail",
-    "ingredients": [
-      {
-        "value": "ჯინი Beefeater - 30 მლ"
-      },
-      {
-        "value": "Campari Bitter - 30 მლ"
-      },
-      {
-        "value": "Martini Rosso - 30 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Build",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ფორთოხლის ნაჭერი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Old Fashioned",
-    "category": "კატეგორია: ",
-    "categoryResponse": "აპერიტივი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
     "name": "ძველმოდური (OLD FASHIONED)",
     "Image": "old-fashioned.jpg",
     "altName": "old-fashioned-cocktail",
@@ -1658,6 +1633,442 @@
     "glassResponse": "იშამპანიურის ბოკალი",
     "category": "კატეგორია: ",
     "categoryResponse": "აპერიტივი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "მაი-ტაი (MAI-TAI)",
+    "Image": "Mai-Tai.png",
+    "altName": "Mai-Tai-cocktail",
+    "ingredients": [
+      {
+        "value": "რომი Bacardi Superior - 40 მლ"
+      },
+      {
+        "value": "რომი Bacardi Black - 20 მლ"
+      },
+      {
+        "value": "სიროფი Monin Orange Curacao - 15 მლ"
+      },
+      {
+        "value": "ლიქიორი Amaretto Disaronno (ან ნუშის სიროფი) - 15 მლ"
+      },
+      {
+        "value": "ლიმნის წვენი - 10 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ცედრა, ანანასის ნაჭერი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "მიმოზა (MIMOSA)",
+    "Image": "mimosa.jpg",
+    "altName": "mimosa-cocktail",
+    "ingredients": [
+      {
+        "value": "ფორთოხლის წვენი - 75 მლ"
+      },
+      {
+        "value": "შამპანიური - 75 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ფორთოხლის ნაჭერი",
+    "glass": "ჭიქა: ",
+    "glassResponse": " შამპანიურის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "გაზიანი სასმელი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "ბნელი ქარიშხალი (DARK'N STORMY)",
+    "Image": "dark-n-stormy.jpg",
+    "altName": "dark-n-stormy-cocktail",
+    "ingredients": [
+      {
+        "value": "რომი Captain Morgan Black - 60 მლ"
+      },
+      {
+        "value": "ჯანჯაფინის ლუდი - 100 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ნაჭერი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "მარგარიტა (MARGARITA)",
+    "Image": "margarita.jpg",
+    "altName": "margarita-cocktail",
+    "ingredients": [
+      {
+        "value": "ტეკილა Sierra Silver - 35 მლ"
+      },
+      {
+        "value": "ლიქიორი Cuintreau - 20 მლ"
+      },
+      {
+        "value": "ლაიმის წვენი - 15 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "მარილის კრასტა და ლიმონი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "მატგარიტას ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "კოქტეილი მთელი დღისთვის",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "მოხიტო (MOJITO)",
+    "Image": "mojito.jpg",
+    "altName": "mojito-cocktail",
+    "ingredients": [
+      {
+        "value": "პიტნა - 6 ფითოლი"
+      },
+      {
+        "value": "შაქრის ლერწმის შაქარ - 2 ჩ.კ."
+      },
+      {
+        "value": "ლაიმი - 30 მლ"
+      },
+      {
+        "value": "რომი Bacardi Superior - 40 მლ"
+      },
+      {
+        "value": "სოდიანი წყალი - დამატებით"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build & Muddle",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლაიმის რგოლი და პიტნა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "დიჟესტივი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "მოსკოველი ჯიუტი (MOSCOW MULE)",
+    "Image": "moscow-mule.jpg",
+    "altName": "mojito-cocktail",
+    "ingredients": [
+      {
+        "value": "ვოდკა Smirnoff - 45 მლ"
+      },
+      {
+        "value": "ჯანჯაფინის ლუდი - 120 მლ"
+      },
+      {
+        "value": "ლაიმის წვენი - 5 მლ"
+      },
+      {
+        "value": "ლაიმი - 2 ნაჭერი"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლაიმის ნაჭერი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "პიტნის ჯულეპი (MINT JULEP)",
+    "Image": "Mint-julep.jpg",
+    "altName": "Mint-julepito-cocktail",
+    "ingredients": [
+      {
+        "value": "პიტნა - 4 ფითოლი"
+      },
+      {
+        "value": "შაქრის პუდრა - 1 ჩ.კ."
+      },
+      {
+        "value": "წყალი - 2 ჩ.კ."
+      },
+      {
+        "value": "ბურბონი Woodford Reserve - 60 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Muddle",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "პიტნის ღერო",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "პინა კოლადა (PINA COLADA)",
+    "Image": "pina-colada.jpg",
+    "altName": "pina-colada-cocktail",
+    "ingredients": [
+      {
+        "value": "რომი Bacardi Superior - 30 მლ"
+      },
+      {
+        "value": "ანანასის წვენი - 90 მლ"
+      },
+      {
+        "value": "ქოქოსის რძე - 30 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Blend",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ანანასის ნაჭერი და ალუბალი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Hurricane",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "ჭუჭყიანი მარტინი (DIRTY MARTINI)",
+    "Image": "dirty-martini.jpeg",
+    "altName": "dirty-martini-cocktail",
+    "ingredients": [
+      {
+        "value": "ვოდკა Absolut - 60 მლ"
+      },
+      {
+        "value": "Martini Extra Dry - 10 მლ"
+      },
+      {
+        "value": "კონსერვირებული ზეთის ხილის წვენი - 10 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Stir & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "მწვანე ზეთის ხილი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "აპერიტივი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "ვარდი (ROSE)",
+    "Image": "rose.jpg",
+    "altName": "dirty-martini-cocktail",
+    "ingredients": [
+      {
+        "value": "Kirsch - 20 მლ"
+      },
+      {
+        "value": "Martini Extra Dry - 40 მლ"
+      },
+      {
+        "value": "მარწყვის სიროფი - 3 დეში"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Stir & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "დიჟესტივი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "ზღვის ბრიზი (SEA BREEZE)",
+    "Image": "sea-breeze.jpg",
+    "altName": "sea-breeze-cocktail",
+    "ingredients": [
+      {
+        "value": "ვოდკა Finlandia - 40 მლ"
+      },
+      {
+        "value": "შტოშის წვენი - 120 მლ"
+      },
+      {
+        "value": "გრეიფრუტის წვენი - 30 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ცედრა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "სექსი პლაჟზე (SEX ON THE BEACH)",
+    "Image": "sex-on-the-beach.jpg",
+    "altName": "sex-on-the-beach-cocktail",
+    "ingredients": [
+      {
+        "value": "ვოდკა Eristoff - 40 მლ"
+      },
+      {
+        "value": "ატმის შნაპსი - 20 მლ"
+      },
+      {
+        "value": "შტოშის წვენი - 40 მლ"
+      },
+      {
+        "value": "ფორთოხლის წვენი - 40 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ფორთოხლის ნაჭერი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "ესპრესო მარტინი (ESPRESSO MARTINI)",
+    "Image": "Espresso-Martini.jpg",
+    "altName": "Espresso-Martini-cocktail",
+    "ingredients": [
+      {
+        "value": "ვოდკა Eristoff - 50 მლ"
+      },
+      {
+        "value": "ლიქიორი Kahlua - 10 მლ"
+      },
+      {
+        "value": "შაქრის სიროფი - გემოვნებით"
+      },
+      {
+        "value": "ყავა ესპრესო - 1 პორცია"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "სადესერტო",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "სინგაპურ სლინგი (SINGAPORE SLING)",
+    "Image": "Singapore-Sling.jpg",
+    "altName": "Singapore-Sling-cocktail",
+    "ingredients": [
+      {
+        "value": "ჯინი Gordon's - 30 მლ"
+      },
+      {
+        "value": "Maria Brizard Cherry - 15 მლ"
+      },
+      {
+        "value": "ლიქიორი Cointreau - 7,5 მლ"
+      },
+      {
+        "value": "ლიქიორი Bebedictine - 7,5 მლ"
+      },
+      {
+        "value": "ანანასის წვენი - 120 მლ"
+      },
+      {
+        "value": "ლაიმის წვენი - 15 მლ"
+      },
+      {
+        "value": "სიროფი Grenadine - 10 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ანანასის ნაჭერი და ალუბალი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "ტეკილა სანრაიზი (TEQUILA SUNRISE)",
+    "Image": "tequila-sunrise.png",
+    "altName": "tequila-sunrise",
+    "ingredients": [
+      {
+        "value": "ტეკილა Olmeca Blanco - 45 მლ"
+      },
+      {
+        "value": "ფორთოხლის წვენი - 90 მლ"
+      },
+      {
+        "value": "სიროფი Grenadine - 15 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ფორთოხლის ნაჭერი და ალუბალი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "ბარაკუდა (BARRACUDA)",
+    "Image": "barracuda.jpg",
+    "altName": "barracuda-cocktail",
+    "ingredients": [
+      {
+        "value": "რომი Bacardi Gold - 45 მლ"
+      },
+      {
+        "value": "ლიქიორი Galiano - 15 მლ"
+      },
+      {
+        "value": "ანანასის წვენი - 60 მლ"
+      },
+      {
+        "value": "ლაიმის წვენი - 1 დეში"
+      },
+      {
+        "value": "დავამატოთ ცქრიალა ღვინო"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "გაზიანი სასმელი",
     "modalComponent": "cocktailComponent"
   }
 ]
