@@ -6,6 +6,7 @@ import Modal from "@/app/components/Modal";
 import Gallery from "../../components/Gallery";
 import Cocktail from "./cocktail/Cocktail";
 import News from "./modalComponents/News";
+import BarHistory from "../BarHistory";
 
 // ბოდის ვიზუალი
 
@@ -62,6 +63,8 @@ const SubComponent = ({ modalKey }: string | any) => {
       return <Gallery />;
     case "cocktailComponent":
       return <Cocktail />;
+    case "historyComponent":
+      return <BarHistory />;
 
     default:
       return <></>;
