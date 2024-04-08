@@ -30,5 +30,4 @@ const BarHistory = () => {
   );
 };
 
-// Export the News component
 export default BarHistory;
