@@ -8,7 +8,7 @@ import Cocktail from "./cocktail/Cocktail";
 import News from "./modalComponents/News";
 import BarHistory from "../BarHistory";
 import Partners from "../Main/partners/Partners";
-
+import AboutUs from "./AboutUs";
 // ბოდის ვიზუალი
 
 type CategoryItemProps = {
@@ -68,6 +68,8 @@ const SubComponent = ({ modalKey }: string | any) => {
       return <BarHistory />;
     case "partnersComponent":
       return <Partners />;
+    case "aboutUsComponent":
+      return <AboutUs />;
 
     default:
       return <></>;

@@ -38,6 +38,9 @@
   {
     "title": "ჩვენს შესახებ",
     "imageSrc": "/our.jpg",
-    "modalComponent": "galleryComponent"
+    "titleSection": "საქართველოს ბარმენთა ასოციაციის ისტორია",
+    "jakoImage": "/jako.jpg",
+    "imageAlt": "საქართველოს ბარმენთა ასოციაციის დამფუძნებელი",
+    "modalComponent": "aboutUsComponent"
   }
 ]

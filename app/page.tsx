@@ -2,6 +2,7 @@
 
 import Main from "./page/Main/main";
 import CategoryMain from "./page/Main/CategoryMain";
+import Footer from "./page/Main/Footer";
 // მთავარი გვერდი
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
     <>
       <Main />
       <CategoryMain />
+      <Footer />
     </>
   );
 }
