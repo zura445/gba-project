@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import ProductComponentsDesc from "./ProductComponentsDesc";
 import Image from "next/image";
 import Modal from "@/app/components/Modal";
-import Gallery from "../../components/Gallery";
+import PhotoVideo from "./gallery/PhotoVideo";
 import Cocktail from "./cocktail/Cocktail";
 import News from "./modalComponents/News";
 import BarHistory from "./BarHistory";
@@ -60,8 +60,8 @@ const SubComponent = ({ modalKey }: string | any) => {
   switch (modalKey) {
     case "newsComponent":
       return <News />;
-    case "galleryComponent":
-      return <Gallery />;
+    case "PhotoVideoComponent":
+      return <PhotoVideo />;
     case "cocktailComponent":
       return <Cocktail />;
     case "historyComponent":

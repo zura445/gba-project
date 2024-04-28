@@ -14,7 +14,7 @@
     "modalTitle": "გალერია",
     "modalSteoOne": "ფოტო",
     "modalStepTwo": "ვიდეო",
-    "modalComponent": "galleryComponent"
+    "modalComponent": "PhotoVideoComponent"
   },
   {
     "title": "კოქტეილები",
