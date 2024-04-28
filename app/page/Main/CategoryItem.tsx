@@ -6,7 +6,7 @@ import Modal from "@/app/components/Modal";
 import Gallery from "../../components/Gallery";
 import Cocktail from "./cocktail/Cocktail";
 import News from "./modalComponents/News";
-import BarHistory from "../BarHistory";
+import BarHistory from "./BarHistory";
 import Partners from "../Main/partners/Partners";
 import AboutUs from "./AboutUs";
 // ბოდის ვიზუალი

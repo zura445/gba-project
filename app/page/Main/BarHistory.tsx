@@ -1,5 +1,5 @@
 import React from "react";
-import categoriesData from "../categories.json";
+import categoriesData from "../../categories.json";
 import Image from "next/image";
 
 interface Category {
