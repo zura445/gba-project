@@ -65,6 +65,7 @@ const Gallery = () => {
           {GalleryImages.map((image, index) => (
             <div key={index} className="flex justify-center">
               <button onClick={() => openModal(image)}>
+                ytgjbhj
                 <Image
                   src={image}
                   alt={`Image ${index + 1}`}
