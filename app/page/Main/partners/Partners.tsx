@@ -1,5 +1,5 @@
 import React from "react";
-import partnersListData from "./partnersList.json";
+import partnersListData from "../../../../public/PartnersList.json";
 import Image from "next/image";
 
 interface Category {
@@ -11,6 +11,8 @@ interface Category {
 
 const Partners = () => {
   const partnersList: Category[] = partnersListData;
+
+  console.log(partnersListData);
 
   if (partnersList.length === 0) {
     return null;
