@@ -1,17 +1,17 @@
-import React, { useState } from "react";
-import PhotoVideo from "./PhotoVideo";
-import Gallery from "./Gallery";
+// import React, { useState } from "react";
+// import PhotoVideo from "./PhotoVideo";
+// // import Gallery from "./Gallery";
 
-const GalleryComponent = () => {
-  const [showGallery, setShowGallery] = useState(false);
+// const GalleryComponent = () => {
+//   const [showGallery, setShowGallery] = useState(false);
 
-  const handleClick = () => {
-    setShowGallery(true);
-  };
+//   const handleClick = () => {
+//     setShowGallery(true);
+//   };
 
-  return (
-    <>{!showGallery ? <PhotoVideo onClick={handleClick} /> : <Gallery />}</>
-  );
-};
+//   return (
+//     <>{!showGallery ? <PhotoVideo onClick={handleClick} /> : <Gallery />}</>
+//   );
+// };
 
-export default GalleryComponent;
+// export default GalleryComponent;
