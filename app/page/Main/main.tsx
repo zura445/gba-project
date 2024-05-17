@@ -21,27 +21,25 @@ const Main = () => {
   }, []);
   return (
     <article className="md:flex block">
-      <section className="w-70 opacity-80 hover:opacity-100">
-        <div className="group relative overflow-hidden">
-          <Image
-            src="/home.jpg"
-            alt="main-image"
-            className="transition-transform duration-500 ease-in-out transform group-hover:scale-110 w-[800px] lg:w-[1400px] md:h-[600px] h-[400px]"
-            width={900}
-            height={600}
-          />
-          <p className="absolute bottom-[-2rem] left-0 right-0 opacity-0 transition-transform duration-500 ease-in-out group-hover:opacity-100 transform translate-y-[50%] md:text-7xl text-4xl group-hover:translate-y-[-50%] text-white p-2 w-48 ml-10">
-            საქართველოს ბარმენთა ასოციაცია
-          </p>
-          <Image
-            src="/logo.png"
-            alt="logo"
-            width={100}
-            height={100}
-            className="absolute top-10 left-10"
-          />
-        </div>
-      </section>
+      <div className="group relative overflow-hidden">
+        <Image
+          src="/home.jpg"
+          alt="main-image"
+          className="transition-transform duration-500 ease-in-out transform group-hover:scale-110 w-[800px] lg:w-[1400px] md:h-[600px] h-[400px] object-cover brightness-75 group-hover:brightness-100"
+          width={900}
+          height={600}
+        />
+        <p className="absolute bottom-[-2rem] left-0 right-0 opacity-0 transition-transform duration-500 ease-in-out group-hover:opacity-100 transform translate-y-[50%] md:text-7xl text-4xl group-hover:translate-y-[-50%] text-white p-2 w-48 ml-10">
+          საქართველოს ბარმენთა ასოციაცია
+        </p>
+        <Image
+          src="/logo.png"
+          alt="logo"
+          width={100}
+          height={100}
+          className="absolute top-10 left-10"
+        />
+      </div>
 
       <section className="md:w-[40%] w-[100%]">
         <MainStudy />

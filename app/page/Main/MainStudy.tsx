@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState } from "react";
 import Modal from "@/app/components/Modal";
 import Image from "next/image";
@@ -27,7 +26,7 @@ const MainStUdy = () => {
 
   return (
     <section>
-      <div className="group relative overflow-hidden opacity-80 hover:opacity-100 w-full">
+      <div className="group relative overflow-hidden w-full cursor-pointer	">
         <div onClick={openModal} className="w-full">
           <Image
             src="/ice-white.jpg"
@@ -35,14 +34,13 @@ const MainStUdy = () => {
             width={300}
             height={300}
             objectFit="cover"
-            className="h-[300px] w-full transition-transform duration-500 ease-in-out transform group-hover:scale-110 object-cover"
+            className="h-[300px] w-full transition-transform duration-500 ease-in-out transform group-hover:scale-110 object-cover brightness-75 group-hover:brightness-100"
           />
           <p className="absolute bottom-10 left-0 right-0 text-white text-center pt-4 text-2xl">
             სწავლება
           </p>
         </div>
       </div>
-
       <Modal closeModal={closeModal} isOpen={isOpen}>
         <p className="text-3xl text-white">ისწავლეთ ჩვენთან ერთად</p>
         <p className="mt-3 text-white">

@@ -1,7 +1,6 @@
 "use client";
-
 import Image from "next/image";
-import { Fragment, useState } from "react";
+import { useState } from "react";
 import Modal from "@/app/components/Modal";
 
 const MainService = () => {
@@ -17,7 +16,7 @@ const MainService = () => {
 
   return (
     <>
-      <div className="group relative overflow-hidden opacity-80 hover:opacity-100 w-full">
+      <div className="group relative overflow-hidden w-full cursor-pointer">
         <div onClick={openModal} className="w-full">
           <Image
             src="/ice.jpg"
@@ -25,14 +24,13 @@ const MainService = () => {
             width={300}
             height={300}
             objectFit="cover"
-            className="h-[300px] w-full transition-transform duration-500 ease-in-out transform group-hover:scale-110 object-cover"
+            className="h-[300px] w-full transition-transform duration-500 ease-in-out transform group-hover:scale-110 object-cover brightness-75 group-hover:brightness-100"
           />
           <p className="absolute bottom-10 left-0 right-0 text-white text-center pt-4 text-2xl">
             მომსახურება
           </p>
         </div>
       </div>
-
       <Modal closeModal={closeModal} isOpen={isOpen}>
         <h1 className="text-3xl text-white">ბარმენთა ასოციაციის მომსახურება</h1>{" "}
         <div className="transform rounded-2xl bg-black p-6 text-left">

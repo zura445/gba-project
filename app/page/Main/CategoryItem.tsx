@@ -32,7 +32,7 @@ const CategoryItem: React.FC<CategoryItemProps> = ({ category, index }) => {
   return (
     <>
       <div
-        className="group relative overflow-hidden opacity-80 hover:opacity-100 cursor-pointer"
+        className="group relative overflow-hidden cursor-pointer"
         onClick={() => openModal(category.modalComponent)}
       >
         <Image
@@ -40,7 +40,7 @@ const CategoryItem: React.FC<CategoryItemProps> = ({ category, index }) => {
           alt={`main-image-${index}`}
           width={300}
           height={300}
-          className="w-full h-[350px] transition-transform duration-500 ease-in-out transform group-hover:scale-110 object-cover"
+          className="w-full h-[350px] transition-transform duration-500 ease-in-out transform group-hover:scale-110 object-cover group-hover:brightness-100 brightness-75"
         />
         <p className="absolute bottom-10 left-0 right-0 text-white text-center pt-4 text-2xl">
           {category.title}
