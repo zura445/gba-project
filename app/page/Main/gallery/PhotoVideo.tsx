@@ -35,11 +35,7 @@ const Gallery = () => {
           </div>
         </div>
       ) : (
-        <Modal
-          isOpen={showGallery}
-          onRequestClose={closeModal}
-          contentLabel="Enlarged Image"
-        >
+        <div>
           <button
             type="button"
             className="absolute top-4 right-4 text-white"
@@ -57,7 +53,7 @@ const Gallery = () => {
               className="object-cover absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-20"
             />
           )}
-        </Modal>
+        </div>
       )}
 
       {showGallery && (
