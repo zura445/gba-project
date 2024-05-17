@@ -13,7 +13,6 @@ const MainService = () => {
   const openModal = () => {
     setIsOpen(true);
   };
-
   return (
     <>
       <div className="group relative overflow-hidden w-full cursor-pointer">
