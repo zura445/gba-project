@@ -88,7 +88,10 @@ const Modal: React.FC<ModalProps> = ({ isOpen, closeModal }) => {
           href="https://www.google.com/maps/place/7+%E1%83%92%E1%83%98%E1%83%92%E1%83%90+%E1%83%9A%E1%83%9D%E1%83%A0%E1%83%97%E1%83%A5%E1%83%98%E1%83%A4%E1%83%90%E1%83%9C%E1%83%98%E1%83%AB%E1%83%98%E1%83%A1+%E1%83%A5%E1%83%A3%E1%83%A9%E1%83%90,+T'bilisi/@41.6912278,44.7952014,17z/data=!3m1!4b1!4m5!3m4!1s0x40440cede9fbb0b7:0x8f257e2bf884ab9e!8m2!3d41.6912238!4d44.7977763?entry=ttu"
         >
           <p className="mt-2">
-            მისამართი: გიგა ლორთქიფანიძის N 7 (ყოფილი ლერმონტოვის N 21)
+            მისამართი:{" "}
+            <span className="text-blue-500 underline">
+              გიგა ლორთქიფანიძის N 7 (ყოფილი ლერმონტოვის N 21)
+            </span>
           </p>
         </Link>
       </div>

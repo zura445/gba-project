@@ -60,10 +60,8 @@ const Gallery = () => {
         <div className="grid md:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 grid-cols-1 gap-4 -z-1">
           {GalleryImages.map((image, index) => (
             <div key={index} className="flex justify-center">
-              <button
-                onClick={() => openModal(image)}
-                aria-label={`View Image ${index + 1}`}
-              >
+              <button onClick={() => openModal(image)}>
+                ytgjbhj
                 <Image
                   src={image}
                   alt={`Image ${index + 1}`}
