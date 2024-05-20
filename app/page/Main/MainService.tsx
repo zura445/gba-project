@@ -9,7 +9,6 @@ const MainService = () => {
   const closeModal = () => {
     setIsOpen(false);
   };
-
   const openModal = () => {
     setIsOpen(true);
   };
