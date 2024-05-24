@@ -2,6 +2,31 @@ import React, { useState } from "react";
 import Image from "next/image";
 import GalleryImages from "../gallery/GaleryImages";
 import Modal from "react-modal";
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+// Modal custom styles
+const customStyles = {
+  content: {
+    top: "50%",
+    left: "50%",
+    right: "auto",
+    bottom: "auto",
+    marginRight: "-50%",
+    transform: "translate(-50%, -50%)",
+    zIndex: 1000,
+  },
+  overlay: {
+    backgroundColor: "rgba(0, 0, 0, 0.75)",
+    zIndex: 1000,
+  },
+};
 
 const Gallery = () => {
   const [showGallery, setShowGallery] = useState(false);
@@ -35,33 +60,10 @@ const Gallery = () => {
           </div>
         </div>
       ) : (
-        <div>
-          <button
-            type="button"
-            className="absolute top-4 right-4 text-white"
-            onClick={closeModal}
-            aria-label="Close Modal"
-          >
-            Close
-          </button>
-          {selectedImage && (
-            <Image
-              src={selectedImage}
-              alt="Enlarged Image"
-              width={800}
-              height={500}
-              className="object-cover absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-20"
-            />
-          )}
-        </div>
-      )}
-
-      {showGallery && (
         <div className="grid md:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 grid-cols-1 gap-4 -z-1">
           {GalleryImages.map((image, index) => (
             <div key={index} className="flex justify-center">
               <button onClick={() => openModal(image)}>
-                ytgjbhj
                 <Image
                   src={image}
                   alt={`Image ${index + 1}`}
@@ -69,10 +71,46 @@ const Gallery = () => {
                   height={500}
                   className="w-[250px] h-[300px] md:w-full object-cover mt-2"
                 />
+                hgvbjhjn
               </button>
             </div>
           ))}
         </div>
+      )}
+
+      {selectedImage && (
+        <Modal
+          isOpen={!!selectedImage}
+          onRequestClose={closeModal}
+          contentLabel="Selected Image"
+          style={customStyles}
+        >
+          <Swiper
+            modules={[Navigation, Pagination, Scrollbar, A11y]}
+            spaceBetween={50}
+            slidesPerView={3}
+            navigation
+            pagination={{ clickable: true }}
+            scrollbar={{ draggable: true }}
+            onSwiper={(swiper) => console.log(swiper)}
+            onSlideChange={() => console.log("slide change")}
+            className="flex flex-col items-center"
+          >
+            <button
+              onClick={closeModal}
+              className=" bg-white text-black rounded"
+            >
+              Close
+            </button>
+            <Image
+              src={selectedImage}
+              alt="Selected Image"
+              width={800}
+              height={500}
+              className="object-cover"
+            />
+          </Swiper>
+        </Modal>
       )}
     </>
   );
