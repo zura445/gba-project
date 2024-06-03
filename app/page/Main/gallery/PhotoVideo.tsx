@@ -86,12 +86,11 @@ const Gallery = () => {
           style={customStyles}
         >
           <Swiper
-            modules={[Navigation, Pagination, Scrollbar, A11y]}
+            modules={[Navigation]}
             spaceBetween={50}
-            slidesPerView={3}
-            navigation
+            slidesPerView={1}
+            navigation={true}
             pagination={{ clickable: true }}
-            scrollbar={{ draggable: true }}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log("slide change")}
             className="flex flex-col items-center"
@@ -102,13 +101,27 @@ const Gallery = () => {
             >
               Close
             </button>
-            <Image
+            {GalleryImages.map((image, index) => (
+              <SwiperSlide
+                key={index}
+                className="flex justify-center !w-full h-full"
+              >
+                <Image
+                  src={image}
+                  alt={`Image ${index + 1}`}
+                  width={800}
+                  height={500}
+                  className="w-[250px] h-[300px] md:w-full object-cover mt-2"
+                />
+              </SwiperSlide>
+            ))}
+            {/* <Image
               src={selectedImage}
               alt="Selected Image"
               width={800}
               height={500}
               className="object-cover"
-            />
+            /> */}
           </Swiper>
         </Modal>
       )}
