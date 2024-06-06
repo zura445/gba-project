@@ -1,12 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import GalleryImages from "../gallery/GaleryImages";
-import Modal from "react-modal";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -76,54 +71,6 @@ const Gallery = () => {
             </div>
           ))}
         </div>
-      )}
-
-      {selectedImage && (
-        <Modal
-          isOpen={!!selectedImage}
-          onRequestClose={closeModal}
-          contentLabel="Selected Image"
-          style={customStyles}
-        >
-          <Swiper
-            modules={[Navigation]}
-            spaceBetween={50}
-            slidesPerView={1}
-            navigation={true}
-            pagination={{ clickable: true }}
-            onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log("slide change")}
-            className="flex flex-col items-center"
-          >
-            <button
-              onClick={closeModal}
-              className=" bg-white text-black rounded"
-            >
-              Close
-            </button>
-            {GalleryImages.map((image, index) => (
-              <SwiperSlide
-                key={index}
-                className="flex justify-center !w-full h-full"
-              >
-                <Image
-                  src={image}
-                  alt={`Image ${index + 1}`}
-                  width={800}
-                  height={500}
-                  className="w-[250px] h-[300px] md:w-full object-cover mt-2"
-                />
-              </SwiperSlide>
-            ))}
-            {/* <Image
-              src={selectedImage}
-              alt="Selected Image"
-              width={800}
-              height={500}
-              className="object-cover"
-            /> */}
-          </Swiper>
-        </Modal>
       )}
     </>
   );
