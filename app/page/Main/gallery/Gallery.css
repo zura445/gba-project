@@ -1,13 +1,21 @@
 /* Gallery.css */
 .ant-carousel .slick-prev,
 .ant-carousel .slick-next {
-  color: red; /* ფერის შეცვლა წითლად */
+  color: rgb(32, 13, 179); /* ფერის შეცვლა წითლად */
   font-size: 24px;
-  background-color: rgba(0, 0, 0, 0.5);
   padding: 8px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   cursor: pointer;
   z-index: 1;
+}
+:where(.css-dev-only-do-not-override-m4timi).ant-carousel .slick-prev::after,
+:where(.css-dev-only-do-not-override-m4timi).ant-carousel .slick-next::after {
+  width: 20px;
+  height: 20px;
+  border-block-width: 4px 0;
+  border-inline-width: 4px 0;
 }
 
 .ant-carousel .slick-prev {

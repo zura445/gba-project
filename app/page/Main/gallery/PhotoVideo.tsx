@@ -7,7 +7,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import "./Gallery.css"; // დავამატეთ CSS ფაილის იმპორტი
 
 const Gallery = () => {
   const [showGallery, setShowGallery] = useState(false);
@@ -41,7 +40,7 @@ const Gallery = () => {
                   alt={`Image ${index + 1}`}
                   width={800}
                   height={500}
-                  className="w-[250px] h-[300px] md:w-full object-cover mt-2"
+                  className="w-64 h-48 md:w-full object-cover mt-2"
                 />
               </button>
             </div>
@@ -50,7 +49,7 @@ const Gallery = () => {
       ) : (
         <div className="relative">
           <button
-            className="absolute top-4 right-4 text-3xl text-white z-50 bg-black px-2"
+            className="absolute top-4 right-4 text-3xl text-white z-50 bg-black px-2 close-button md:hidden"
             onClick={closeCarousel}
           >
             X
@@ -68,7 +67,7 @@ const Gallery = () => {
                   alt={`Image ${index + 1}`}
                   width={800}
                   height={500}
-                  className="w-[250px] h-[500px] md:w-full object-cover mt-2"
+                  className="w-full h-[550px] md:w-full object-contain mt-2"
                 />
               </div>
             ))}
