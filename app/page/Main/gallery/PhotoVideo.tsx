@@ -1,64 +1,41 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Image from "next/image";
 import GalleryImages from "../gallery/GaleryImages";
-
+import { Carousel } from "antd";
+import type { CarouselRef } from "antd/es/carousel";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-// Modal custom styles
-const customStyles = {
-  content: {
-    top: "50%",
-    left: "50%",
-    right: "auto",
-    bottom: "auto",
-    marginRight: "-50%",
-    transform: "translate(-50%, -50%)",
-    zIndex: 1000,
-  },
-  overlay: {
-    backgroundColor: "rgba(0, 0, 0, 0.75)",
-    zIndex: 1000,
-  },
-};
+import "./Gallery.css"; // დავამატეთ CSS ფაილის იმპორტი
 
 const Gallery = () => {
   const [showGallery, setShowGallery] = useState(false);
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const carouselRef = useRef<CarouselRef>(null);
 
-  const openModal = (image: any) => {
-    setSelectedImage(image);
+  const openImageInCarousel = (index: number) => {
+    setSelectedIndex(index);
     setShowGallery(true);
+    if (carouselRef.current) {
+      carouselRef.current.goTo(index);
+    }
   };
 
-  const closeModal = () => {
-    setSelectedImage(null);
+  const closeCarousel = () => {
     setShowGallery(false);
   };
 
   return (
-    <>
+    <div className="text-white">
       {!showGallery ? (
-        <div className="text-center">
-          <div
-            className="text-3xl mt-6 text-white cursor-pointer"
-            onClick={() => setShowGallery(true)}
-          >
-            ფოტო
-          </div>
-          <div
-            className="text-3xl mt-6 text-white cursor-pointer"
-            onClick={() => setShowGallery(true)}
-          >
-            ვიდეო
-          </div>
-        </div>
-      ) : (
         <div className="grid md:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 grid-cols-1 gap-4 -z-1">
           {GalleryImages.map((image, index) => (
             <div key={index} className="flex justify-center">
-              <button onClick={() => openModal(image)}>
+              <button
+                onClick={() => openImageInCarousel(index)}
+                aria-label={`Open image ${index + 1} in carousel`}
+              >
                 <Image
                   src={image}
                   alt={`Image ${index + 1}`}
@@ -66,13 +43,39 @@ const Gallery = () => {
                   height={500}
                   className="w-[250px] h-[300px] md:w-full object-cover mt-2"
                 />
-                hgvbjhjn
               </button>
             </div>
           ))}
         </div>
+      ) : (
+        <div className="relative">
+          <button
+            className="absolute top-4 right-4 text-3xl text-white z-50 bg-black px-2"
+            onClick={closeCarousel}
+          >
+            X
+          </button>
+          <Carousel
+            ref={carouselRef}
+            initialSlide={selectedIndex}
+            arrows
+            infinite={false}
+          >
+            {GalleryImages.map((image, index) => (
+              <div key={index} className="flex justify-center">
+                <Image
+                  src={image}
+                  alt={`Image ${index + 1}`}
+                  width={800}
+                  height={500}
+                  className="w-[250px] h-[500px] md:w-full object-cover mt-2"
+                />
+              </div>
+            ))}
+          </Carousel>
+        </div>
       )}
-    </>
+    </div>
   );
 };
 

@@ -1,0 +1,19 @@
+/* Gallery.css */
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+  color: red; /* ფერის შეცვლა წითლად */
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.ant-carousel .slick-prev {
+  left: 16px;
+}
+
+.ant-carousel .slick-next {
+  right: 16px;
+}
