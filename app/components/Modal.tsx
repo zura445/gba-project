@@ -35,9 +35,9 @@ const Modal: React.FC<ModalProps> = ({ closeModal, isOpen, children }) => {
               leaveTo="opacity-0 scale-95"
             >
               <Dialog.Panel className="w-full md:max-w-[60%] max-w-[90%] h-[86%] md:h-[60%] bg-black rounded-lg absolute">
-                <button
+                {/* <button
                   type="button"
-                  className="rounded-md bg-black px-2 pb-3 text-white top-2 left-36 relative md:hidden"
+                  className="rounded-md z-10 px-2 pb-3 text-white bg-black absolute top-2 right-2 md:hidden"
                   onClick={closeModal}
                   title="Close Modal"
                 >
@@ -55,7 +55,7 @@ const Modal: React.FC<ModalProps> = ({ closeModal, isOpen, children }) => {
                       d="M6 18L18 6M6 6l12 12"
                     />
                   </svg>
-                </button>
+                </button> */}
 
                 <div className="overflow-y-scroll scrollbar-thin scrollbar-thumb-red-800 scrollbar-track-gray-800 w-full h-[600px] transform rounded-2xl bg-black p-6 text-left">
                   {children}

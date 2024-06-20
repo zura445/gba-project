@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import ProductComponentsDesc from "./ProductComponentsDesc";
 import Image from "next/image";
 import Modal from "@/app/components/Modal";
-import PhotoVideo from "./gallery/PhotoVideo";
+import PhotoVideo from "./gallery/Gallery";
 import Cocktail from "./cocktail/Cocktail";
 import News from "./modalComponents/News";
 import BarHistory from "./BarHistory";
