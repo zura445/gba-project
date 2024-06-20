@@ -39,7 +39,7 @@ const Modal: React.FC<ModalProps> = ({ closeModal, isOpen, children }) => {
                   type="button"
                   className="rounded-md bg-black px-2 pb-3 text-white top-2 left-36 relative md:hidden"
                   onClick={closeModal}
-                  title="Close Modal" // Add a title attribute with a meaningful description
+                  title="Close Modal"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
