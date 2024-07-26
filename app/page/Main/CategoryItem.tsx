@@ -9,7 +9,6 @@ import News from "./modalComponents/News";
 import BarHistory from "./BarHistory";
 import Partners from "../Main/partners/Partners";
 import AboutUs from "./AboutUs";
-// ბოდის ვიზუალი
 
 type CategoryItemProps = {
   category: ProductComponentsDesc;
