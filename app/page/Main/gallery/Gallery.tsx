@@ -8,26 +8,76 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "./Gallery.css";
+
 const Gallery = () => {
   const [showGallery, setShowGallery] = useState(false);
+  const [showCarousel, setShowCarousel] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(0);
+  const [mediaType, setMediaType] = useState<"photo" | "video" | "">("");
   const carouselRef = useRef<CarouselRef>(null);
+
+  const selectMediaType = (type: "photo" | "video") => {
+    setMediaType(type);
+    if (type === "photo") {
+      setShowGallery(true);
+    }
+  };
 
   const openImageInCarousel = (index: number) => {
     setSelectedIndex(index);
-    setShowGallery(true);
+    setShowCarousel(true);
     if (carouselRef.current) {
       carouselRef.current.goTo(index);
     }
   };
 
   const closeCarousel = () => {
-    setShowGallery(false);
+    setShowCarousel(false);
   };
+
+  const closeGallery = () => {
+    setShowGallery(false);
+    setShowCarousel(false);
+    setMediaType("");
+  };
+
+  if (mediaType === "") {
+    return (
+      <div className=" flex flex-col justify-center items-center h-[500px]">
+        <button
+          className="w-[50%] py-4 bg-gray-700 text-white rounded block"
+          onClick={() => selectMediaType("photo")}
+        >
+          ფოტო
+        </button>
+        <button
+          className="w-[50%] py-4 mt-5 bg-gray-700 text-white rounded"
+          onClick={() => selectMediaType("video")}
+        >
+          ვიდეო
+        </button>
+      </div>
+    );
+  }
+
+  if (mediaType === "video") {
+    return (
+      <div className="flex justify-center items-center h-screen">
+        <p>Video content goes here</p>
+        <button
+          className="absolute top-4 right-4 text-3xl text-white z-50 bg-black px-2 close-button"
+          onClick={closeGallery}
+          title={"Close"}
+        >
+          Close
+        </button>
+      </div>
+    );
+  }
 
   return (
     <div className="text-white">
-      {!showGallery ? (
+      {showGallery && !showCarousel ? (
         <div className="grid md:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 grid-cols-1 gap-4 -z-1">
           {GalleryImages.map((image, index) => (
             <div key={index} className="flex justify-center">
@@ -46,7 +96,7 @@ const Gallery = () => {
             </div>
           ))}
         </div>
-      ) : (
+      ) : showCarousel ? (
         <div className="relative">
           <button
             className="absolute top-4 right-4 text-3xl text-white z-50 bg-black px-2 close-button md:hidden"
@@ -87,6 +137,15 @@ const Gallery = () => {
             ))}
           </Carousel>
         </div>
+      ) : null}
+      {showGallery && (
+        <button
+          className="absolute top-4 right-4 text-3xl text-white z-50 bg-black px-2 close-button"
+          onClick={closeGallery}
+          title={"Close"}
+        >
+          X
+        </button>
       )}
     </div>
   );
