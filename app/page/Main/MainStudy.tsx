@@ -14,7 +14,7 @@ const MainStUdy = () => {
     setIsOpen(true);
   };
 
-  const courseDisciplines = ["* Bartending", "* BAR MANAGEMENT", "* Barista"];
+  const courseDisciplines = ["Bartending", "BAR MANAGEMENT", "Barista"];
 
   return (
     <section>
@@ -36,20 +36,22 @@ const MainStUdy = () => {
       <Modal closeModal={closeModal} isOpen={isOpen}>
         <p className="text-3xl text-white">🍹 შენ შეგიძლია შეისწავლო</p>
 
-        <ol className="list-decimal ml-6 text-white">
+        <ol className="list-decimal ml-6 mt-4 text-white">
           {courseDisciplines.map((discipline, index) => (
             <li key={index}>{discipline}</li>
           ))}
         </ol>
         <div className="mt-3 text-white">
           <p>
-            * ყველა ალკოჰოლური სასმლის წარმოშობა და განვითარება, IBA-ის
+            ყველა ალკოჰოლური სასმლის წარმოშობა და განვითარება, IBA-ის
             სტანდარტების მიხედვით.
           </p>
-          <p>
-            * 🍸 მიქსოლოგია : IBA-ის 77 კლასიკური და 100 პოპულალური კოქტეილები.
+          <p className="mt-2">
+            🍸 მიქსოლოგია : IBA-ის 77 კლასიკური და 100 პოპულალური კოქტეილები.
           </p>
-          <p>💼 პრაქტიკებს გაივლის და დასაქმდება ყველა კურსდამთავრებული!</p>
+          <p className="mt-2">
+            💼 პრაქტიკებს გაივლის და დასაქმდება ყველა კურსდამთავრებული!
+          </p>
           <p>
             სერთიფიკატი გაიცემა International Bartenders Association PRESIDENT
             Georgio Fadda-ს მიერ.🎓

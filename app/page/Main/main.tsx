@@ -35,9 +35,9 @@ const Main = () => {
         <Image
           src="/logo.svg"
           alt="logo"
-          width={100}
-          height={100}
-          className="absolute top-10 left-10"
+          width={150}
+          height={150}
+          className="absolute top-10 left-10 rounded-full"
         />
       </div>
 
