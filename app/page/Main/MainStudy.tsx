@@ -51,8 +51,8 @@ const MainStUdy = () => {
           </p>
           <p>💼 პრაქტიკებს გაივლის და დასაქმდება ყველა კურსდამთავრებული!</p>
           <p>
-            სერთიფიკატი გაიცემა International Bartenders Association „PRESIDENT
-            " Georgio Fadda-ს მიერ.🎓
+            სერთიფიკატი გაიცემა International Bartenders Association PRESIDENT
+            Georgio Fadda-ს მიერ.🎓
           </p>
           <p>
             ✨ჩვენთან სწავლა ნიშნავს : შესაძლებლობას - მიიღოთ მონაწილეობა
