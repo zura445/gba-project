@@ -33,7 +33,7 @@ const Main = () => {
           საქართველოს ბარმენთა ასოციაცია
         </p>
         <Image
-          src="/logo.png"
+          src="/logo.jpg"
           alt="logo"
           width={100}
           height={100}

@@ -42,13 +42,12 @@ const MainService = () => {
         </div>
         <div className="mt-4">
           <ol className="list-decimal ml-6 text-left text-white">
-            <li>ბარმენების მომსახურებას</li>
-            <li>ივენთის დაგეგმა</li>
-            <li>სრული სერვისის დაგეგმას და განხორციელებას</li>
+            <li>ბარმენების სერვისით მომსახურება</li>
+            <li>ივენთის დაგეგმარება</li>
           </ol>
         </div>
         <div className="text-left py-2 ml-2 text-white">
-          დეტალებისთვის დაგვიკავშირდით ტელ: 597 000 540
+          დეტალებისთვის დაგვიკავშირდით ტელ: 598 18 13 16
         </div>
       </Modal>
     </>

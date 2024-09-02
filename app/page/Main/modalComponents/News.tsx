@@ -5,6 +5,7 @@ interface Category {
   modalDescription?: string;
   modalSteoOne?: string;
   modalStepTwo?: string;
+  modalStepThree?: string;
 }
 
 const News = () => {
@@ -24,6 +25,7 @@ const News = () => {
       >
         <li className="text-white">{firstCategory.modalSteoOne}</li>
         <li className="text-white">{firstCategory.modalStepTwo}</li>
+        <li className="text-white">{firstCategory.modalStepThree}</li>
       </ul>
     </section>
   );

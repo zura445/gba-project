@@ -26,7 +26,7 @@ const Footer = () => {
       <Modal isOpen={isModalOpen} closeModal={closeModal} />
       <Link
         className="text-white"
-        href="https://www.facebook.com/georgianbartenders.associattion"
+        href="https://www.facebook.com/gbabar.ge?mibextid=LQQJ4d"
       >
         <Image
           src={"/facebook.png"}
@@ -38,7 +38,7 @@ const Footer = () => {
       </Link>
       <Link
         className="text-white"
-        href="https://www.instagram.com/georgianbartendersassociation/"
+        href="https://www.instagram.com/geobartenders?igsh=MWJxbjVpaDYzbWthcA%3D%3D"
       >
         <Image
           src={"/instagram2.svg"}
@@ -81,7 +81,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, closeModal }) => {
   return (
     <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center z-50">
       <div ref={modalRef} className="bg-black p-8 rounded-lg">
-        <p className="text-white">ტელ: 593-24-46-34</p>
+        <p className="text-white">ტელ: 598 18 13 16 გიორგი</p>
         <p className="text-white mt-2">იმეილი: gbajako@gmail.com</p>
         <Link
           className="text-white"
