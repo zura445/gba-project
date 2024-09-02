@@ -50,15 +50,3 @@ const Main = () => {
 };
 
 export default Main;
-
-{
-  /* <p className="absolute bottom-[-2rem] left-0 right-0 opacity-100 transform translate-y-[-50%] md:text-7xl text-5xl text-white p-2 w-48 ml-10">
-  საქართველოს ბარმენთა ასოციაცია
-</p>; */
-}
-
-{
-  /* <p className="absolute bottom-[-2rem] left-0 right-0 opacity-0 transition-transform duration-500 ease-in-out group-hover:opacity-100 transform translate-y-[50%] md:text-7xl text-5xl group-hover:translate-y-[-50%] text-white p-2 w-48 ml-10">
-საქართველოს ბარმენთა ასოციაცია
-</p> */
-}
