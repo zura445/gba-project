@@ -30,7 +30,7 @@ const MainService = () => {
         </div>
       </div>
       <Modal closeModal={closeModal} isOpen={isOpen}>
-        <h1 className="text-3xl text-white">ბარმენთა ასოციაციის მომსახურება</h1>{" "}
+        <h1 className="text-3xl text-white">ბარმენთა ასოციაციის მომსახურება</h1>
         <div className="transform rounded-2xl bg-black p-6 text-left">
           <Image
             src="/bartender.jpg"
