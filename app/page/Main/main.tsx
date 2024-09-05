@@ -37,7 +37,7 @@ const Main = () => {
           alt="logo"
           width={150}
           height={150}
-          className="absolute top-10 left-10 rounded-full"
+          className="absolute top-10 left-10"
         />
       </div>
 
