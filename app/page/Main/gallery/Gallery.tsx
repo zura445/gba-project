@@ -62,15 +62,15 @@ const Gallery = () => {
 
   if (mediaType === "video") {
     return (
-      <div className="flex justify-center items-center h-screen">
-        <p>Video content goes here</p>
-        <button
-          className="absolute top-4 right-4 text-3xl text-white z-50 bg-black px-2 close-button"
-          onClick={closeGallery}
-          title={"Close"}
-        >
-          Close
-        </button>
+      <div className="mt-10">
+        <iframe
+          className="m-auto w-full h-[250px] sm:h-[360px] md:h-[450px] lg:h-[500px]"
+          src="https://www.youtube.com/embed/jpHTvW0FGig?si=LSv8HPsOc0WPE8eo"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
       </div>
     );
   }
