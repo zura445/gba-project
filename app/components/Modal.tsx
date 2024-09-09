@@ -1,13 +1,37 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useRef, useEffect } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 
 interface ModalProps {
   closeModal: () => void;
   isOpen: boolean;
-  children: any;
+  children: React.ReactNode;
+  scrollToElementId?: string;
 }
 
-const Modal: React.FC<ModalProps> = ({ closeModal, isOpen, children }) => {
+const Modal: React.FC<ModalProps> = ({
+  closeModal,
+  isOpen,
+  children,
+  scrollToElementId,
+}) => {
+  const modalContentRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (isOpen && scrollToElementId && modalContentRef.current) {
+      const elementToScrollTo = modalContentRef.current.querySelector(
+        `#${scrollToElementId}`
+      );
+      if (elementToScrollTo) {
+        setTimeout(() => {
+          elementToScrollTo.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+          });
+        }, 100);
+      }
+    }
+  }, [isOpen, scrollToElementId]);
+
   return (
     <Transition appear show={isOpen} as={Fragment}>
       <Dialog as="div" className="relative z-10" onClose={closeModal}>
@@ -35,29 +59,10 @@ const Modal: React.FC<ModalProps> = ({ closeModal, isOpen, children }) => {
               leaveTo="opacity-0 scale-95"
             >
               <Dialog.Panel className="w-full md:max-w-[60%] max-w-[90%] h-[86%] md:h-[60%] bg-black rounded-lg absolute">
-                {/* <button
-                  type="button"
-                  className="rounded-md z-10 px-2 pb-3 text-white bg-black absolute top-2 right-2 md:hidden"
-                  onClick={closeModal}
-                  title="Close Modal"
+                <div
+                  ref={modalContentRef}
+                  className="overflow-y-scroll scrollbar-thin scrollbar-thumb-red-800 scrollbar-track-gray-800 w-full h-[600px] transform rounded-2xl bg-black p-6 text-left"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M6 18L18 6M6 6l12 12"
-                    />
-                  </svg>
-                </button> */}
-
-                <div className="overflow-y-scroll scrollbar-thin scrollbar-thumb-red-800 scrollbar-track-gray-800 w-full h-[600px] transform rounded-2xl bg-black p-6 text-left">
                   {children}
                 </div>
               </Dialog.Panel>
