@@ -80,10 +80,11 @@ const Gallery = () => {
       {showGallery && !showCarousel ? (
         <div className="grid md:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 grid-cols-1 gap-4 -z-1">
           {GalleryImages.map((image, index) => (
-            <div key={index} className="flex justify-center">
+            <div key={index} className="flex justify-center w-full">
               <button
                 onClick={() => openImageInCarousel(index)}
                 aria-label={`Open image ${index + 1} in carousel`}
+                className="w-full"
               >
                 <Image
                   src={image}
@@ -138,7 +139,7 @@ const Gallery = () => {
           </Carousel>
         </div>
       ) : null}
-      {showGallery && (
+      {/* {showGallery && (
         <button
           className="absolute top-4 right-4 text-3xl text-white z-50 bg-black px-2 close-button"
           onClick={closeGallery}
@@ -146,7 +147,7 @@ const Gallery = () => {
         >
           X
         </button>
-      )}
+      )} */}
     </div>
   );
 };
