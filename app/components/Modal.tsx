@@ -61,7 +61,7 @@ const Modal: React.FC<ModalProps> = ({
               <Dialog.Panel className="w-full md:max-w-[60%] max-w-[90%] h-[86%] md:h-[60%] bg-black rounded-lg absolute">
                 <div
                   ref={modalContentRef}
-                  className="overflow-y-scroll scrollbar-thin scrollbar-thumb-red-800 scrollbar-track-gray-800 w-full h-[600px] transform rounded-2xl bg-black p-6 text-left"
+                  className="overflow-y-scroll overflow-x-hidden scrollbar-thin scrollbar-thumb-red-800 scrollbar-track-gray-800 max-w-full h-[600px] transform rounded-2xl bg-black p-6 text-left box-border"
                 >
                   {children}
                 </div>
