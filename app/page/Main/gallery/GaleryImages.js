@@ -39,7 +39,7 @@ const GaleryImages = [
   "/bar-37.jpg",
   "/bar-38.jpg",
   "/bar-125.jpg",
-  "/bar-126.jpg",
+  // "/bar-126.jpg",
   "/bar-39.jpg",
   "/bar-40.jpg",
   "/bar-41.jpg",
@@ -125,7 +125,6 @@ const GaleryImages = [
   "/bar-117.jpg",
   "/bar-118.jpg",
   "/bar-119.jpg",
-  "/bar-120.jpg",
   "/bar-121.jpg",
   "/bar-122.jpg",
 ];
