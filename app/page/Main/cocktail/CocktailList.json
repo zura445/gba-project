@@ -3,7 +3,7 @@
     "categoryTitle": "77 კლასიკური კოქტეილი",
     "catTitle": "რას ნიშნავს კლასიკური კოქტეილი?",
     "catName": "ეს არის (IBA-ს) მსოფლიო ბარმენთა ასოციაციის მიერ აღიარებული კოქტეილები",
-    "name": "(ალექსანდრე) ALEXANDER",
+    "name": "ALEXANDER (ალექსანდრე) ",
     "Image": "aleqsander.jpeg",
     "altName": "aleqsander-cocktail",
     "ingredients": [
@@ -28,7 +28,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ამერიკანო (AMERICANO)",
+    "name": "AMERICANO (ამერიკანო)",
     "Image": "americano.jpg",
     "altName": "americano-cocktail",
     "ingredients": [
@@ -53,7 +53,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ანგელოზის სახე (ANGEL FACE)",
+    "name": "ANGEL FACE (ანგელოზის სახე)",
     "Image": "angel-face.jpg",
     "altName": "aleqsander-cocktail",
     "ingredients": [
@@ -78,7 +78,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "მაყვალი (BRAMBLE)",
+    "name": "BRAMBLE (მაყვალი)",
     "Image": "bramble.jpg",
     "altName": "bramble-cocktail",
     "ingredients": [
@@ -106,7 +106,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ავიაცია (AVIATION)",
+    "name": "AVIATION (ავიაცია)",
     "Image": "aviation.jpg",
     "altName": "aviation-cocktail",
     "ingredients": [
@@ -131,7 +131,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ლიმნის წვეთი (LEMON DROP)",
+    "name": "LEMON DROP (ლიმნის წვეთი)",
     "Image": "Lemon-Drop.jpg",
     "altName": "Lemon-Drop-cocktail",
     "ingredients": [
@@ -156,7 +156,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ბ-52 (B-52)",
+    "name": "B-52 (ბ-52)",
     "Image": "B-52.jpg",
     "altName": "B-52-cocktail",
     "ingredients": [
@@ -181,7 +181,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ბაკარდი (BACARDI)",
+    "name": "BACARDI (ბაკარდი)",
     "Image": "bacardi.jpg",
     "altName": "bacardi-cocktail",
     "ingredients": [
@@ -206,7 +206,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ზეწრების შორის (BETWEEN THE SHEETS)",
+    "name": "BETWEEN THE SHEETS (ზეწრების შორის)",
     "Image": "between-the-sheets.jpg",
     "altName": "between-the-sheets-cocktail",
     "ingredients": [
@@ -234,7 +234,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "კაზინო (CASINO)",
+    "name": "CASINO (კაზინო)",
     "Image": "Casino.jpg",
     "altName": "casino-cocktail",
     "ingredients": [
@@ -262,7 +262,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "კლევერ კლაბი (CLOVER CLUB)",
+    "name": "CLOVER CLUB (კლევერ კლაბი)",
     "Image": "clover-club.jpg",
     "altName": "clover-club-cocktail",
     "ingredients": [
@@ -290,7 +290,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "დაიკირი (DAIQUIRI)",
+    "name": "DAIQUIRI (დაიკირი)",
     "Image": "Daiquiri.jpg",
     "altName": "Daiquiri-cocktail",
     "ingredients": [
@@ -315,7 +315,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "დერბი (DERBY)",
+    "name": "DERBY (დერბი)",
     "Image": "derby.jpg",
     "altName": "derby-cocktail",
     "ingredients": [
@@ -340,7 +340,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "სტინგერი (STINGER)",
+    "name": "STINGER (სტინგერი)",
     "Image": "Stinger.jpg",
     "altName": "Stinger-cocktail",
     "ingredients": [
@@ -362,7 +362,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "მშრალი მარტინი (DRY MARTINI)",
+    "name": "DRY MARTINI (მშრალი მარტინი)",
     "Image": "dry-martini.jpg",
     "altName": "dry-martini",
     "ingredients": [
@@ -384,7 +384,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ჯინ ფიზი (jIN FIZZ)",
+    "name": "JIN FIZZ (ჯინ ფიზი)",
     "Image": "jin-fizz.jpg",
     "altName": "jin-fizz",
     "ingredients": [
@@ -412,7 +412,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ჯონ კოლინზი (JOHN COLLINS)",
+    "name": "JOHN COLLINS (ჯონ კოლინზი)",
     "Image": "john-Collins.jpg",
     "altName": "john-Collins-cocktail",
     "ingredients": [
@@ -443,7 +443,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "პისკო საუერი (PISCO SOUR)",
+    "name": "PISCO SOUR (პისკო საუერი)",
     "Image": "pisco.jpg",
     "altName": "pisco-cocktail",
     "ingredients": [
@@ -474,7 +474,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "საგაზაფხულო რუსული პუნში (RUSSIAN SPRING PUNCH)",
+    "name": "RUSSIAN SPRING PUNCH (საგაზაფხულო რუსული პუნში)",
     "Image": "russian-spring-punch.jpg",
     "altName": "russian-spring-punch-cocktail",
     "ingredients": [
@@ -505,7 +505,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "მანჰეტენი (MANHATTAN)",
+    "name": "MANHATTAN (მანჰეტენი)",
     "Image": "manhattan.jpg",
     "altName": "manhattan-cocktail",
     "ingredients": [
@@ -530,7 +530,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ვენეციური სპრიტცი (SPRITZ VENEZIANO)",
+    "name": "SPRITZ VENEZIANO (ვენეციური სპრიტცი)",
     "Image": "spritz-veneziano.jpeg",
     "altName": "spritz-veneziano-cocktail",
     "ingredients": [
@@ -555,7 +555,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "მერი პიკფორდი (MARY PICKFORD)",
+    "name": "MARY PICKFORD (მერი პიკფორდი)",
     "Image": "mary.jpg",
     "altName": "spritz-veneziano-cocktail",
     "ingredients": [
@@ -583,7 +583,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "მაიმუნის გლანდები (MONKEY GLAND)",
+    "name": "MONKEY GLAND (მაიმუნის გლანდები)",
     "Image": "monkey-gland.jpg",
     "altName": "monkey-gland-cocktail",
     "ingredients": [
@@ -611,7 +611,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ნეგრონი (NEGRON)",
+    "name": "NEGRON (ნეგრონი)",
     "Image": "negroni.jpg",
     "altName": "negroni-cocktail",
     "ingredients": [
@@ -636,7 +636,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ძველმოდური (OLD FASHIONED)",
+    "name": "OLD FASHIONED (ძველმოდური)",
     "Image": "old-fashioned.jpg",
     "altName": "old-fashioned-cocktail",
     "ingredients": [
@@ -664,7 +664,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "სამოთხე (PARADISE)",
+    "name": "PARADISE (სამოთხე)",
     "Image": "paradise.jpg",
     "altName": "paradise-cocktail",
     "ingredients": [
@@ -689,7 +689,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "პლანტატორის პუნში (PLANTER'S PUNCH)",
+    "name": "PLANTER'S PUNCH (პლანტატორის პუნში)",
     "Image": "planters-punch.jpg",
     "altName": "planters-punch-cocktail",
     "ingredients": [
@@ -726,7 +726,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ვამპირი (VAMPIRO)",
+    "name": "VAMPIRO (ვამპირი)",
     "Image": "vampiro.jpg",
     "altName": "vampiro-cocktail",
     "ingredients": [
@@ -766,7 +766,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "პორტო ფლიპი (PORTO FLIP)",
+    "name": "PORTO FLIP (პორტო ფლიპი)",
     "Image": "Porto_flip.jpg",
     "altName": "Porto_flip-cocktail",
     "ingredients": [
@@ -791,7 +791,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ვესპერი (VESPER)",
+    "name": "VESPER (ვესპერი)",
     "Image": "vesper.jpg",
     "altName": "ვესპერი (VESPER)-cocktail",
     "ingredients": [
@@ -816,7 +816,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "რამოს ფიზი (RAMOS FIZZ)",
+    "name": "RAMOS FIZZ (რამოს ფიზი)",
     "Image": "ramos-fizz.jpg",
     "altName": "ramos-fizz-cocktail",
     "ingredients": [
@@ -856,7 +856,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ჟანგიანი ლურსმანი (RUSTY NAIL)",
+    "name": "RUSTY NAIL (ჟანგიანი ლურსმანი)",
     "Image": "rusty-nail.jpg",
     "altName": "rusty-nail-cocktail",
     "ingredients": [
@@ -878,7 +878,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "საზერაკი (SAZERAC)",
+    "name": "SAZERAC (საზერაკი)",
     "Image": "sazerac.jpg",
     "altName": "sazerac-cocktail",
     "ingredients": [
@@ -906,7 +906,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ყვითელი ჩიტი (YELLOW BIRD)",
+    "name": "YELLOW BIRD (ყვითელი ჩიტი)",
     "Image": "Yellow-bird.jpg",
     "altName": "Yellow-bird-cocktail",
     "ingredients": [
@@ -934,7 +934,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "სახრახნისი (SCREWDRIVER)",
+    "name": "SCREWDRIVER (სახრახნისი)",
     "Image": "screwdriver.jpg",
     "altName": "screwdriver-cocktail",
     "ingredients": [
@@ -956,7 +956,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "საიდკარი (SIDE CAR)",
+    "name": "SIDE CAR (საიდკარი)",
     "Image": "side-car.jpg",
     "altName": "side-car-cocktail",
     "ingredients": [
@@ -981,7 +981,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ვისკი საუერი (WHISKEY SOUR)",
+    "name": "WHISKEY SOUR (ვისკი საუერი)",
     "Image": "whiskey-sour.jpg",
     "altName": "whiskey-sour-cocktail",
     "ingredients": [
@@ -1009,8 +1009,8 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "თეთრი ლედი (WHITE LADY)",
-    "Image": "White_Lady.jpg",
+    "name": "WHITE LADY (თეთრი ლედი)",
+    "Image": "White_L ady.jpg",
     "altName": "White_lady-cocktail",
     "ingredients": [
       {
@@ -1034,7 +1034,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "სმოკინგი (TUXEDO)",
+    "name": "TUXEDO (სმოკინგი)",
     "Image": "tuxedo.jpg",
     "altName": "tuxedo-cocktail",
     "ingredients": [
@@ -1065,7 +1065,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ბელინი (BELLINI)",
+    "name": "BELLINI (ბელინი)",
     "Image": "belini.jpg",
     "altName": "belini-cocktail",
     "ingredients": [
@@ -1087,7 +1087,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "შავი რუსი (BLACK RUSSIAN)",
+    "name": "BLACK RUSSIAN (შავი რუსი)",
     "Image": "Black-Russian.jpg",
     "altName": "Black-Russian-cocktail",
     "ingredients": [
@@ -1109,7 +1109,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "თეთრი რუსი (WHITE RUSSIAN)",
+    "name": "WHITE RUSSIAN (თეთრი რუსი)",
     "Image": "white-russion.jpg",
     "altName": "belini-cocktail",
     "ingredients": [
@@ -1134,7 +1134,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "სისხლიანი მერი (BLOODY MARY)",
+    "name": "BLOODY MARY (სისხლიანი მერი)",
     "Image": "Bloody-Mary.jpg",
     "altName": "Bloody-Mary-cocktail",
     "ingredients": [
@@ -1168,7 +1168,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ლონგაილენ აის თი (LONGISLAND ICED TEA)",
+    "name": "LONGISLAND ICED TEA (ლონგაილენ აის თი)",
     "Image": "longisland-iced-tea.jpg",
     "altName": "longisland-iced-tea-cocktail",
     "ingredients": [
@@ -1208,7 +1208,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "კაიპირინია (CAIPIRINHA)",
+    "name": "CAIPIRINHA (კაიპირინია)",
     "Image": "caipirinha-5.jpg",
     "altName": "caipirinha-cocktail",
     "ingredients": [
@@ -1233,7 +1233,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "შამპან კოქტეილი (CHAMPAGNE COCKTAIL)",
+    "name": "CHAMPAGNE COCKTAIL (შამპან კოქტეილი)",
     "Image": "champagne_cocktail.jpg",
     "altName": "champagne-cocktail",
     "ingredients": [
@@ -1261,7 +1261,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "კოსმოპოლიტენი (COSMOPOLITAN)",
+    "name": "COSMOPOLITAN (კოსმოპოლიტენი)",
     "Image": "cosmopolitan.jpg",
     "altName": "cosmopolitan-cocktail",
     "ingredients": [
@@ -1289,7 +1289,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "კუბა ლიბრე (CUBA LIBRE)",
+    "name": "CUBA LIBRE (კუბა ლიბრე)",
     "Image": "cuba-libre.jpg",
     "altName": "cuba-libre-cocktail",
     "ingredients": [
@@ -1314,7 +1314,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ფრანგული კავშირი (FRENCH CONNECTION)",
+    "name": "FRENCH CONNECTION (ფრანგული კავშირი)",
     "Image": "french-connection.jpg",
     "altName": "french-connection-cocktail",
     "ingredients": [
@@ -1336,7 +1336,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ნათლიმამა (GODFATHER)",
+    "name": "GODFATHER (ნათლიმამა)",
     "Image": "Godfather.jpg",
     "altName": "Godfather-cocktail",
     "ingredients": [
@@ -1358,7 +1358,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ნათლიდედა (GODMOTHER)",
+    "name": "GODMOTHER (ნათლიდედა)",
     "Image": "godmother.jpg",
     "altName": "godmother-cocktail",
     "ingredients": [
@@ -1380,7 +1380,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ოქროს ოცნება (GOLDEN DREAM)",
+    "name": "GOLDEN DREAM (ოქროს ოცნება)",
     "Image": "Golden-Dream.jpg",
     "altName": "Golden-Dream-cocktail",
     "ingredients": [
@@ -1408,7 +1408,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "კალია (GRASSHOPPER)",
+    "name": "GRASSHOPPER (კალია)",
     "Image": "Grasshopper.jpg",
     "altName": "Grasshopper-cocktail",
     "ingredients": [
@@ -1433,7 +1433,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ფრანგული მარტინი (FRENCH MARTINI)",
+    "name": "FRENCH MARTINI (ფრანგული მარტინი)",
     "Image": "french-martini.jpg",
     "altName": "french-martini-cocktail",
     "ingredients": [
@@ -1458,7 +1458,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "კამიკაძე (KAMIKAZE)",
+    "name": "KAMIKAZE (კამიკაძე)",
     "Image": "Kamikaze.jpg",
     "altName": "Kamikaze-cocktail",
     "ingredients": [
@@ -1483,7 +1483,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ფრანგული 75 (FRENCH 75)",
+    "name": "FRENCH 75 (ფრანგული 75)",
     "Image": "french-75.jpg",
     "altName": "french-75-cocktail",
     "ingredients": [
@@ -1511,7 +1511,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ჰარვი ვოლბერგერი (HARVEY WALLBANGER)",
+    "name": "HARVEY WALLBANGER (ჰარვი ვოლბერგერი)",
     "Image": "harvey-wallbanger.jpg",
     "altName": "harvey-wallbanger-cocktail",
     "ingredients": [
@@ -1536,7 +1536,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ჰემინგუეი სპეშალ (HEMINGWAY SPECIAL)",
+    "name": "HEMINGWAY SPECIAL (ჰემინგუეი სპეშალ)",
     "Image": "hemingway.jpg",
     "altName": "hemingway-cocktail",
     "ingredients": [
@@ -1564,7 +1564,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ცხენის კისერი (HORSE'S NECK)",
+    "name": "HORSE'S NECK (ცხენის კისერი)",
     "Image": "Horses-Neck.jpg",
     "altName": "Horses-Neck-cocktail",
     "ingredients": [
@@ -1589,7 +1589,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ირლანდიური ყავა (IRISH COFFEE)",
+    "name": "IRISH COFFEE (ირლანდიური ყავა)",
     "Image": "Irish-Coffee.jpg",
     "altName": "Irish-Coffee-cocktail",
     "ingredients": [
@@ -1617,7 +1617,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "კირი (KIR)",
+    "name": "KIR (კირი)",
     "Image": "kir.jpg",
     "altName": "kir-cocktail",
     "ingredients": [
@@ -1639,7 +1639,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "მაი-ტაი (MAI-TAI)",
+    "name": "MAI-TAI (მაი-ტაი)",
     "Image": "Mai-Tai.png",
     "altName": "Mai-Tai-cocktail",
     "ingredients": [
@@ -1670,7 +1670,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "მიმოზა (MIMOSA)",
+    "name": "MIMOSA (მიმოზა)",
     "Image": "mimosa.jpg",
     "altName": "mimosa-cocktail",
     "ingredients": [
@@ -1692,7 +1692,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ბნელი ქარიშხალი (DARK'N STORMY)",
+    "name": "DARK'N STORMY (ბნელი ქარიშხალი)",
     "Image": "dark-n-stormy.jpg",
     "altName": "dark-n-stormy-cocktail",
     "ingredients": [
@@ -1714,7 +1714,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "მარგარიტა (MARGARITA)",
+    "name": "MARGARITA (მარგარიტა)",
     "Image": "margarita.jpg",
     "altName": "margarita-cocktail",
     "ingredients": [
@@ -1739,7 +1739,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "მოხიტო (MOJITO)",
+    "name": "MOJITO (მოხიტო)",
     "Image": "mojito.jpg",
     "altName": "mojito-cocktail",
     "ingredients": [
@@ -1770,7 +1770,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "მოსკოველი ჯიუტი (MOSCOW MULE)",
+    "name": "MOSCOW MULE (მოსკოველი ჯიუტი)",
     "Image": "moscow-mule.jpg",
     "altName": "mojito-cocktail",
     "ingredients": [
@@ -1798,7 +1798,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "პიტნის ჯულეპი (MINT JULEP)",
+    "name": "MINT JULEP (პიტნის ჯულეპი)",
     "Image": "Mint-julep.jpg",
     "altName": "Mint-julepito-cocktail",
     "ingredients": [
@@ -1826,7 +1826,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "პინა კოლადა (PINA COLADA)",
+    "name": "PINA COLADA (პინა კოლადა)",
     "Image": "pina-colada.jpg",
     "altName": "pina-colada-cocktail",
     "ingredients": [
@@ -1851,7 +1851,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ჭუჭყიანი მარტინი (DIRTY MARTINI)",
+    "name": "DIRTY MARTINI (ჭუჭყიანი მარტინი)",
     "Image": "dirty-martini.jpeg",
     "altName": "dirty-martini-cocktail",
     "ingredients": [
@@ -1876,7 +1876,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ვარდი (ROSE)",
+    "name": "ROSE (ვარდი)",
     "Image": "rose.jpg",
     "altName": "dirty-martini-cocktail",
     "ingredients": [
@@ -1901,7 +1901,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ზღვის ბრიზი (SEA BREEZE)",
+    "name": "SEA BREEZE (ზღვის ბრიზი)",
     "Image": "sea-breeze.jpg",
     "altName": "sea-breeze-cocktail",
     "ingredients": [
@@ -1926,7 +1926,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "სექსი პლაჟზე (SEX ON THE BEACH)",
+    "name": "SEX ON THE BEACH (სექსი პლაჟზე)",
     "Image": "sex-on-the-beach.jpg",
     "altName": "sex-on-the-beach-cocktail",
     "ingredients": [
@@ -1954,7 +1954,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ესპრესო მარტინი (ESPRESSO MARTINI)",
+    "name": "ESPRESSO MARTINI (ესპრესო მარტინი)",
     "Image": "Espresso-Martini.jpg",
     "altName": "Espresso-Martini-cocktail",
     "ingredients": [
@@ -1982,7 +1982,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "სინგაპურ სლინგი (SINGAPORE SLING)",
+    "name": "SINGAPORE SLING (სინგაპურ სლინგი)",
     "Image": "Singapore-Sling.jpg",
     "altName": "Singapore-Sling-cocktail",
     "ingredients": [
@@ -2019,7 +2019,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ტეკილა სანრაიზი (TEQUILA SUNRISE)",
+    "name": "TEQUILA SUNRISE (ტეკილა სანრაიზი)",
     "Image": "tequila-sunrise.png",
     "altName": "tequila-sunrise",
     "ingredients": [
@@ -2044,7 +2044,7 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "ბარაკუდა (BARRACUDA)",
+    "name": "BARRACUDA (ბარაკუდა)",
     "Image": "barracuda.jpg",
     "altName": "barracuda-cocktail",
     "ingredients": [

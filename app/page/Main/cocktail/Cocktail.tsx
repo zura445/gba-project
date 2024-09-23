@@ -71,10 +71,10 @@ const Cocktail = () => {
           {(CocktailList[0] as CocktailData).categoryTitle}
         </h1>
         <p className="text-white mt-4">
-          {(CocktailList[0] as CocktailData).catName}
+          {(CocktailList[0] as CocktailData).catTitle}
         </p>
         <p className="text-white mt-2">
-          {(CocktailList[0] as CocktailData).catTitle}
+          {(CocktailList[0] as CocktailData).catName}
         </p>
       </section>
       <div className="mt-6">
