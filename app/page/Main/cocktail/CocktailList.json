@@ -78,6 +78,31 @@
     "modalComponent": "cocktailComponent"
   },
   {
+    "name": "AVIATION (ავიაცია)",
+    "Image": "aviation.jpg",
+    "altName": "aviation-cocktail",
+    "ingredients": [
+      {
+        "value": "ჯინი Beefeater - 45 მლ"
+      },
+      {
+        "value": "ლიქიორი Maraschino - 15 მლ"
+      },
+      {
+        "value": "ლიმნის წვენი - 15 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ცედრა ან ალუბალი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "კოქტეილი მთელი დღისთვის",
+    "modalComponent": "cocktailComponent"
+  },
+  {
     "name": "BRAMBLE (მაყვალი)",
     "Image": "bramble.jpg",
     "altName": "bramble-cocktail",
@@ -101,31 +126,6 @@
     "garnishResponse": "ლიმნის ნაჭერი და მაყვალი",
     "glass": "ჭიქა: ",
     "glassResponse": "Old Fashioned",
-    "category": "კატეგორია: ",
-    "categoryResponse": "კოქტეილი მთელი დღისთვის",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "AVIATION (ავიაცია)",
-    "Image": "aviation.jpg",
-    "altName": "aviation-cocktail",
-    "ingredients": [
-      {
-        "value": "ჯინი Beefeater - 45 მლ"
-      },
-      {
-        "value": "ლიქიორი Maraschino - 15 მლ"
-      },
-      {
-        "value": "ლიმნის წვენი - 15 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Shake & Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლიმნის ცედრა ან ალუბალი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "კოქტეილის ბოკალი",
     "category": "კატეგორია: ",
     "categoryResponse": "კოქტეილი მთელი დღისთვის",
     "modalComponent": "cocktailComponent"
