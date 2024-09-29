@@ -318,31 +318,6 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "LEMON DROP (ლიმნის წვეთი)",
-    "Image": "Lemon-Drop.jpg",
-    "altName": "Lemon-Drop-cocktail",
-    "ingredients": [
-      {
-        "value": "ვოდკა Absolute Citron - 25 მლ"
-      },
-      {
-        "value": "ლიქიორი Triple Sec - 20 მლ"
-      },
-      {
-        "value": "ლიმნის წვენი - 30 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Shake & Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლიმნის ნაჭერი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "კოქტეილის ბოკალი",
-    "category": "კატეგორია: ",
-    "categoryResponse": "კოქტეილი მთელი დღისთვის",
-    "modalComponent": "cocktailComponent"
-  },
-  {
     "name": "CASINO (კაზინო)",
     "Image": "Casino.jpg",
     "altName": "casino-cocktail",
@@ -392,6 +367,137 @@
     "methodResponse": "Shake & Strain",
     "garnish": "გარნირი: ",
     "garnishResponse": "",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "კოქტეილი მთელი დღისთვის",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "CAIPIRINHA (კაიპირინია)",
+    "Image": "caipirinha-5.jpg",
+    "altName": "caipirinha-cocktail",
+    "ingredients": [
+      {
+        "value": "Cachacha 51 - 50 მლ"
+      },
+      {
+        "value": "ლაიმი - ნახევარი"
+      },
+      {
+        "value": "შაქარი - 2 ბარის კოვზი"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build & Muddle",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლაიმი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Old Fashioned",
+    "category": "კატეგორია: ",
+    "categoryResponse": "კოქტეილი მთელი დღისთვის",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "CHAMPAGNE COCKTAIL (შამპან კოქტეილი)",
+    "Image": "champagne_cocktail.jpg",
+    "altName": "champagne-cocktail",
+    "ingredients": [
+      {
+        "value": "Martini Asti Brut - 90 მლ"
+      },
+      {
+        "value": "კონიაკი Remy Martin V.S. - 10 მლ"
+      },
+      {
+        "value": "Angostura Bitter - 2 დეში"
+      },
+      {
+        "value": "შაქარი - 1 კუბიკი"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ფორთოხლის ცედრა და ალუბალი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "შამპანიურის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "გაზიანი კოქტეილი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "COSMOPOLITAN (კოსმოპოლიტენი)",
+    "Image": "cosmopolitan.jpg",
+    "altName": "cosmopolitan-cocktail",
+    "ingredients": [
+      {
+        "value": "ვოდკა Absolut Citron - 40 მლ"
+      },
+      {
+        "value": "ლიქიორი Cointreu - 10 მლ"
+      },
+      {
+        "value": "ლიმნის წვენი - 15 მლ"
+      },
+      {
+        "value": "შტოშის წვენი - 30 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ცედრა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "კოქტეილი მთელი დღისთვის",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "CUBA LIBRE (კუბა ლიბრე)",
+    "Image": "cuba-libre.jpg",
+    "altName": "cuba-libre-cocktail",
+    "ingredients": [
+      {
+        "value": "რომი Bacardi Superior - 50 მლ"
+      },
+      {
+        "value": "Coca-Cola - 120 მლ"
+      },
+      {
+        "value": "ლიმნის წვენი - 10 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ნაჭერი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "LEMON DROP (ლიმნის წვეთი)",
+    "Image": "Lemon-Drop.jpg",
+    "altName": "Lemon-Drop-cocktail",
+    "ingredients": [
+      {
+        "value": "ვოდკა Absolute Citron - 25 მლ"
+      },
+      {
+        "value": "ლიქიორი Triple Sec - 20 მლ"
+      },
+      {
+        "value": "ლიმნის წვენი - 30 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ნაჭერი",
     "glass": "ჭიქა: ",
     "glassResponse": "კოქტეილის ბოკალი",
     "category": "კატეგორია: ",
@@ -1238,112 +1344,7 @@
     "categoryResponse": "ლონგდრინქი",
     "modalComponent": "cocktailComponent"
   },
-  {
-    "name": "CAIPIRINHA (კაიპირინია)",
-    "Image": "caipirinha-5.jpg",
-    "altName": "caipirinha-cocktail",
-    "ingredients": [
-      {
-        "value": "Cachacha 51 - 50 მლ"
-      },
-      {
-        "value": "ლაიმი - ნახევარი"
-      },
-      {
-        "value": "შაქარი - 2 ბარის კოვზი"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Build & Muddle",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლაიმი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Old Fashioned",
-    "category": "კატეგორია: ",
-    "categoryResponse": "კოქტეილი მთელი დღისთვის",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "CHAMPAGNE COCKTAIL (შამპან კოქტეილი)",
-    "Image": "champagne_cocktail.jpg",
-    "altName": "champagne-cocktail",
-    "ingredients": [
-      {
-        "value": "Martini Asti Brut - 90 მლ"
-      },
-      {
-        "value": "კონიაკი Remy Martin V.S. - 10 მლ"
-      },
-      {
-        "value": "Angostura Bitter - 2 დეში"
-      },
-      {
-        "value": "შაქარი - 1 კუბიკი"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Build",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ფორთოხლის ცედრა და ალუბალი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "შამპანიურის ბოკალი",
-    "category": "კატეგორია: ",
-    "categoryResponse": "გაზიანი კოქტეილი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "COSMOPOLITAN (კოსმოპოლიტენი)",
-    "Image": "cosmopolitan.jpg",
-    "altName": "cosmopolitan-cocktail",
-    "ingredients": [
-      {
-        "value": "ვოდკა Absolut Citron - 40 მლ"
-      },
-      {
-        "value": "ლიქიორი Cointreu - 10 მლ"
-      },
-      {
-        "value": "ლიმნის წვენი - 15 მლ"
-      },
-      {
-        "value": "შტოშის წვენი - 30 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Shake & Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლიმნის ცედრა",
-    "glass": "ჭიქა: ",
-    "glassResponse": "კოქტეილის ბოკალი",
-    "category": "კატეგორია: ",
-    "categoryResponse": "კოქტეილი მთელი დღისთვის",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "CUBA LIBRE (კუბა ლიბრე)",
-    "Image": "cuba-libre.jpg",
-    "altName": "cuba-libre-cocktail",
-    "ingredients": [
-      {
-        "value": "რომი Bacardi Superior - 50 მლ"
-      },
-      {
-        "value": "Coca-Cola - 120 მლ"
-      },
-      {
-        "value": "ლიმნის წვენი - 10 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Build",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლიმნის ნაჭერი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Highball",
-    "category": "კატეგორია: ",
-    "categoryResponse": "ლონგდრინქი",
-    "modalComponent": "cocktailComponent"
-  },
+
   {
     "name": "FRENCH CONNECTION (ფრანგული კავშირი)",
     "Image": "french-connection.jpg",
