@@ -346,6 +346,31 @@
     "modalComponent": "cocktailComponent"
   },
   {
+    "name": "CAIPIRINHA (კაიპირინია)",
+    "Image": "caipirinha-5.jpg",
+    "altName": "caipirinha-cocktail",
+    "ingredients": [
+      {
+        "value": "Cachacha 51 - 50 მლ"
+      },
+      {
+        "value": "ლაიმი - ნახევარი"
+      },
+      {
+        "value": "შაქარი - 2 ბარის კოვზი"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build & Muddle",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლაიმი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Old Fashioned",
+    "category": "კატეგორია: ",
+    "categoryResponse": "კოქტეილი მთელი დღისთვის",
+    "modalComponent": "cocktailComponent"
+  },
+  {
     "name": "CLOVER CLUB (კლევერ კლაბი)",
     "Image": "clover-club.jpg",
     "altName": "clover-club-cocktail",
@@ -373,31 +398,7 @@
     "categoryResponse": "კოქტეილი მთელი დღისთვის",
     "modalComponent": "cocktailComponent"
   },
-  {
-    "name": "CAIPIRINHA (კაიპირინია)",
-    "Image": "caipirinha-5.jpg",
-    "altName": "caipirinha-cocktail",
-    "ingredients": [
-      {
-        "value": "Cachacha 51 - 50 მლ"
-      },
-      {
-        "value": "ლაიმი - ნახევარი"
-      },
-      {
-        "value": "შაქარი - 2 ბარის კოვზი"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Build & Muddle",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლაიმი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Old Fashioned",
-    "category": "კატეგორია: ",
-    "categoryResponse": "კოქტეილი მთელი დღისთვის",
-    "modalComponent": "cocktailComponent"
-  },
+
   {
     "name": "CHAMPAGNE COCKTAIL (შამპან კოქტეილი)",
     "Image": "champagne_cocktail.jpg",
@@ -480,31 +481,6 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "LEMON DROP (ლიმნის წვეთი)",
-    "Image": "Lemon-Drop.jpg",
-    "altName": "Lemon-Drop-cocktail",
-    "ingredients": [
-      {
-        "value": "ვოდკა Absolute Citron - 25 მლ"
-      },
-      {
-        "value": "ლიქიორი Triple Sec - 20 მლ"
-      },
-      {
-        "value": "ლიმნის წვენი - 30 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Shake & Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლიმნის ნაჭერი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "კოქტეილის ბოკალი",
-    "category": "კატეგორია: ",
-    "categoryResponse": "კოქტეილი მთელი დღისთვის",
-    "modalComponent": "cocktailComponent"
-  },
-  {
     "name": "DAIQUIRI (დაიკირი)",
     "Image": "Daiquiri.jpg",
     "altName": "Daiquiri-cocktail",
@@ -527,6 +503,28 @@
     "glassResponse": "კოქტეილის ბოკალი",
     "category": "კატეგორია: ",
     "categoryResponse": "აპერიტივი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "DARK'N STORMY (ბნელი ქარიშხალი)",
+    "Image": "dark-n-stormy.jpg",
+    "altName": "dark-n-stormy-cocktail",
+    "ingredients": [
+      {
+        "value": "რომი Captain Morgan Black - 60 მლ"
+      },
+      {
+        "value": "ჯანჯაფინის ლუდი - 100 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ნაჭერი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ლონგდრინქი",
     "modalComponent": "cocktailComponent"
   },
   {
@@ -555,25 +553,28 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "STINGER (სტინგერი)",
-    "Image": "Stinger.jpg",
-    "altName": "Stinger-cocktail",
+    "name": "DIRTY MARTINI (ჭუჭყიანი მარტინი)",
+    "Image": "dirty-martini.jpeg",
+    "altName": "dirty-martini-cocktail",
     "ingredients": [
       {
-        "value": "Hennessy V.S.O.P - 50 მლ"
+        "value": "ვოდკა Absolut - 60 მლ"
       },
       {
-        "value": "Creme De Menthe - 20 მლ"
+        "value": "Martini Extra Dry - 10 მლ"
+      },
+      {
+        "value": "კონსერვირებული ზეთის ხილის წვენი - 10 მლ"
       }
     ],
     "method": "მეთოდი: ",
-    "methodResponse": "Stir and Strain",
+    "methodResponse": "Stir & Strain",
     "garnish": "გარნირი: ",
-    "garnishResponse": "პიტნა",
+    "garnishResponse": "მწვანე ზეთის ხილი",
     "glass": "ჭიქა: ",
     "glassResponse": "კოქტეილის ბოკალი",
     "category": "კატეგორია: ",
-    "categoryResponse": "დიჟესტივი",
+    "categoryResponse": "აპერიტივი",
     "modalComponent": "cocktailComponent"
   },
   {
@@ -596,6 +597,28 @@
     "glassResponse": "კოქტეილის ბოკალი",
     "category": "კატეგორია: ",
     "categoryResponse": "აპერიტივი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "STINGER (სტინგერი)",
+    "Image": "Stinger.jpg",
+    "altName": "Stinger-cocktail",
+    "ingredients": [
+      {
+        "value": "Hennessy V.S.O.P - 50 მლ"
+      },
+      {
+        "value": "Creme De Menthe - 20 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Stir and Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "პიტნა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "დიჟესტივი",
     "modalComponent": "cocktailComponent"
   },
   {
@@ -767,6 +790,31 @@
     "glassResponse": "Old Fashioned",
     "category": "კატეგორია: ",
     "categoryResponse": "გაზიანი კოქტეილი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "LEMON DROP (ლიმნის წვეთი)",
+    "Image": "Lemon-Drop.jpg",
+    "altName": "Lemon-Drop-cocktail",
+    "ingredients": [
+      {
+        "value": "ვოდკა Absolute Citron - 25 მლ"
+      },
+      {
+        "value": "ლიქიორი Triple Sec - 20 მლ"
+      },
+      {
+        "value": "ლიმნის წვენი - 30 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ნაჭერი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "კოქტეილი მთელი დღისთვის",
     "modalComponent": "cocktailComponent"
   },
   {
@@ -1724,28 +1772,6 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "DARK'N STORMY (ბნელი ქარიშხალი)",
-    "Image": "dark-n-stormy.jpg",
-    "altName": "dark-n-stormy-cocktail",
-    "ingredients": [
-      {
-        "value": "რომი Captain Morgan Black - 60 მლ"
-      },
-      {
-        "value": "ჯანჯაფინის ლუდი - 100 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Build",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლიმნის ნაჭერი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Highball",
-    "category": "კატეგორია: ",
-    "categoryResponse": "ლონგდრინქი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
     "name": "MARGARITA (მარგარიტა)",
     "Image": "margarita.jpg",
     "altName": "margarita-cocktail",
@@ -1880,31 +1906,6 @@
     "glassResponse": "Hurricane",
     "category": "კატეგორია: ",
     "categoryResponse": "ლონგდრინქი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "DIRTY MARTINI (ჭუჭყიანი მარტინი)",
-    "Image": "dirty-martini.jpeg",
-    "altName": "dirty-martini-cocktail",
-    "ingredients": [
-      {
-        "value": "ვოდკა Absolut - 60 მლ"
-      },
-      {
-        "value": "Martini Extra Dry - 10 მლ"
-      },
-      {
-        "value": "კონსერვირებული ზეთის ხილის წვენი - 10 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Stir & Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "მწვანე ზეთის ხილი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "კოქტეილის ბოკალი",
-    "category": "კატეგორია: ",
-    "categoryResponse": "აპერიტივი",
     "modalComponent": "cocktailComponent"
   },
   {
