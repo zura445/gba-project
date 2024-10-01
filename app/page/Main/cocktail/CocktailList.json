@@ -600,6 +600,81 @@
     "modalComponent": "cocktailComponent"
   },
   {
+    "name": "FRENCH CONNECTION (ფრანგული კავშირი)",
+    "Image": "french-connection.jpg",
+    "altName": "french-connection-cocktail",
+    "ingredients": [
+      {
+        "value": "კონიაკი Remy Martin V.S.O.P. - 35 მლ"
+      },
+      {
+        "value": "ლიქიორი Amaretto Disaronno - 35 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ცედრა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Old Fashioned",
+    "category": "კატეგორია: ",
+    "categoryResponse": "დიჟესტივი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "FRENCH MARTINI (ფრანგული მარტინი)",
+    "Image": "french-martini.jpg",
+    "altName": "french-martini-cocktail",
+    "ingredients": [
+      {
+        "value": "ვოდკა Eristof - 45 მლ"
+      },
+      {
+        "value": "ლიქიორი Raspberry - 15 მლ"
+      },
+      {
+        "value": "ანანასის წვენი - 15 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Stir & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ცედრა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "აპერიტივი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "FRENCH 75 (ფრანგული 75)",
+    "Image": "french-75.jpg",
+    "altName": "french-75-cocktail",
+    "ingredients": [
+      {
+        "value": "ჯინი Beefeater - 30 მლ"
+      },
+      {
+        "value": "ლიმნის წვენი - 15 მლ"
+      },
+      {
+        "value": "შაქრის სიროფი - 2 დეში"
+      },
+      {
+        "value": "შამპანიური - 60 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ცედრა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "შამპანიურის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "გაზიანი კოქტეილი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
     "name": "STINGER (სტინგერი)",
     "Image": "Stinger.jpg",
     "altName": "Stinger-cocktail",
@@ -1392,29 +1467,6 @@
     "categoryResponse": "ლონგდრინქი",
     "modalComponent": "cocktailComponent"
   },
-
-  {
-    "name": "FRENCH CONNECTION (ფრანგული კავშირი)",
-    "Image": "french-connection.jpg",
-    "altName": "french-connection-cocktail",
-    "ingredients": [
-      {
-        "value": "კონიაკი Remy Martin V.S.O.P. - 35 მლ"
-      },
-      {
-        "value": "ლიქიორი Amaretto Disaronno - 35 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Build",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლიმნის ცედრა",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Old Fashioned",
-    "category": "კატეგორია: ",
-    "categoryResponse": "დიჟესტივი",
-    "modalComponent": "cocktailComponent"
-  },
   {
     "name": "GODFATHER (ნათლიმამა)",
     "Image": "Godfather.jpg",
@@ -1513,31 +1565,6 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "FRENCH MARTINI (ფრანგული მარტინი)",
-    "Image": "french-martini.jpg",
-    "altName": "french-martini-cocktail",
-    "ingredients": [
-      {
-        "value": "ვოდკა Eristof - 45 მლ"
-      },
-      {
-        "value": "ლიქიორი Raspberry - 15 მლ"
-      },
-      {
-        "value": "ანანასის წვენი - 15 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Stir & Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლიმნის ცედრა",
-    "glass": "ჭიქა: ",
-    "glassResponse": "კოქტეილის ბოკალი",
-    "category": "კატეგორია: ",
-    "categoryResponse": "აპერიტივი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
     "name": "KAMIKAZE (კამიკაძე)",
     "Image": "Kamikaze.jpg",
     "altName": "Kamikaze-cocktail",
@@ -1560,34 +1587,6 @@
     "glassResponse": "კოქტეილის ბოკალი",
     "category": "კატეგორია: ",
     "categoryResponse": "კოქტეილი მთელი დღისთვის",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "FRENCH 75 (ფრანგული 75)",
-    "Image": "french-75.jpg",
-    "altName": "french-75-cocktail",
-    "ingredients": [
-      {
-        "value": "ჯინი Beefeater - 30 მლ"
-      },
-      {
-        "value": "ლიმნის წვენი - 15 მლ"
-      },
-      {
-        "value": "შაქრის სიროფი - 2 დეში"
-      },
-      {
-        "value": "შამპანიური - 60 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Shake & Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლიმნის ცედრა",
-    "glass": "ჭიქა: ",
-    "glassResponse": "შამპანიურის ბოკალი",
-    "category": "კატეგორია: ",
-    "categoryResponse": "გაზიანი კოქტეილი",
     "modalComponent": "cocktailComponent"
   },
   {
