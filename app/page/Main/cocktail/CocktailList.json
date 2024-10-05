@@ -878,28 +878,6 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "STINGER (სტინგერი)",
-    "Image": "Stinger.jpg",
-    "altName": "Stinger-cocktail",
-    "ingredients": [
-      {
-        "value": "Hennessy V.S.O.P - 50 მლ"
-      },
-      {
-        "value": "Creme De Menthe - 20 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Stir and Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "პიტნა",
-    "glass": "ჭიქა: ",
-    "glassResponse": "კოქტეილის ბოკალი",
-    "category": "კატეგორია: ",
-    "categoryResponse": "დიჟესტივი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
     "name": "JIN FIZZ (ჯინ ფიზი)",
     "Image": "jin-fizz.jpg",
     "altName": "jin-fizz",
@@ -956,6 +934,28 @@
     "glassResponse": "Highball",
     "category": "კატეგორია: ",
     "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "STINGER (სტინგერი)",
+    "Image": "Stinger.jpg",
+    "altName": "Stinger-cocktail",
+    "ingredients": [
+      {
+        "value": "Hennessy V.S.O.P - 50 მლ"
+      },
+      {
+        "value": "Creme De Menthe - 20 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Stir and Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "პიტნა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "დიჟესტივი",
     "modalComponent": "cocktailComponent"
   },
   {
