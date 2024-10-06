@@ -878,6 +878,34 @@
     "modalComponent": "cocktailComponent"
   },
   {
+    "name": "IRISH COFFEE (ირლანდიური ყავა)",
+    "Image": "Irish-Coffee.jpg",
+    "altName": "Irish-Coffee-cocktail",
+    "ingredients": [
+      {
+        "value": "ცხელი ყავა ესპრესო - 80 მლ"
+      },
+      {
+        "value": "ვისკი Jameson - 120 მლ"
+      },
+      {
+        "value": "შაქარი - 1 ჩ.კ."
+      },
+      {
+        "value": "ნაღები - 30 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ცედრა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "ირლანდიური ყავის ჭიქა",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ცხელი სასმელი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
     "name": "JIN FIZZ (ჯინ ფიზი)",
     "Image": "jin-fizz.jpg",
     "altName": "jin-fizz",
@@ -934,6 +962,53 @@
     "glassResponse": "Highball",
     "category": "კატეგორია: ",
     "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "KAMIKAZE (კამიკაძე)",
+    "Image": "Kamikaze.jpg",
+    "altName": "Kamikaze-cocktail",
+    "ingredients": [
+      {
+        "value": "ვოდკა Finlandia - 30 მლ"
+      },
+      {
+        "value": "ლიქიორი Triple Sec - 30 მლ"
+      },
+      {
+        "value": "ლიმნის წვენი - 30 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ნაჭერი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "კოქტეილი მთელი დღისთვის",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "KIR (კირი)",
+    "Image": "kir.jpg",
+    "altName": "kir-cocktail",
+    "ingredients": [
+      {
+        "value": "თეთრი მშრალი ღვინო - 90 მლ"
+      },
+      {
+        "value": "ლიქიორი Creme De Cassis - 10 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "მალინა ან მაყვალი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "იშამპანიურის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "აპერიტივი",
     "modalComponent": "cocktailComponent"
   },
   {
@@ -1670,81 +1745,7 @@
     "categoryResponse": "ლონგდრინქი",
     "modalComponent": "cocktailComponent"
   },
-  {
-    "name": "KAMIKAZE (კამიკაძე)",
-    "Image": "Kamikaze.jpg",
-    "altName": "Kamikaze-cocktail",
-    "ingredients": [
-      {
-        "value": "ვოდკა Finlandia - 30 მლ"
-      },
-      {
-        "value": "ლიქიორი Triple Sec - 30 მლ"
-      },
-      {
-        "value": "ლიმნის წვენი - 30 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Shake & Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლიმნის ნაჭერი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "კოქტეილის ბოკალი",
-    "category": "კატეგორია: ",
-    "categoryResponse": "კოქტეილი მთელი დღისთვის",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "IRISH COFFEE (ირლანდიური ყავა)",
-    "Image": "Irish-Coffee.jpg",
-    "altName": "Irish-Coffee-cocktail",
-    "ingredients": [
-      {
-        "value": "ცხელი ყავა ესპრესო - 80 მლ"
-      },
-      {
-        "value": "ვისკი Jameson - 120 მლ"
-      },
-      {
-        "value": "შაქარი - 1 ჩ.კ."
-      },
-      {
-        "value": "ნაღები - 30 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Build",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლიმნის ცედრა",
-    "glass": "ჭიქა: ",
-    "glassResponse": "ირლანდიური ყავის ჭიქა",
-    "category": "კატეგორია: ",
-    "categoryResponse": "ცხელი სასმელი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "KIR (კირი)",
-    "Image": "kir.jpg",
-    "altName": "kir-cocktail",
-    "ingredients": [
-      {
-        "value": "თეთრი მშრალი ღვინო - 90 მლ"
-      },
-      {
-        "value": "ლიქიორი Creme De Cassis - 10 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Build",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "მალინა ან მაყვალი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "იშამპანიურის ბოკალი",
-    "category": "კატეგორია: ",
-    "categoryResponse": "აპერიტივი",
-    "modalComponent": "cocktailComponent"
-  },
+
   {
     "name": "MAI-TAI (მაი-ტაი)",
     "Image": "Mai-Tai.png",
