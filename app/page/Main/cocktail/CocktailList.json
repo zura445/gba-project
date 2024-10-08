@@ -1012,6 +1012,317 @@
     "modalComponent": "cocktailComponent"
   },
   {
+    "name": "LEMON DROP (ლიმნის წვეთი)",
+    "Image": "Lemon-Drop.jpg",
+    "altName": "Lemon-Drop-cocktail",
+    "ingredients": [
+      {
+        "value": "ვოდკა Absolute Citron - 25 მლ"
+      },
+      {
+        "value": "ლიქიორი Triple Sec - 20 მლ"
+      },
+      {
+        "value": "ლიმნის წვენი - 30 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ნაჭერი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "კოქტეილი მთელი დღისთვის",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "LONGISLAND ICED TEA (ლონგაილენ აის თი)",
+    "Image": "longisland-iced-tea.jpg",
+    "altName": "longisland-iced-tea-cocktail",
+    "ingredients": [
+      {
+        "value": "ტეკილა Sauza Blanco - 15 მლ"
+      },
+      {
+        "value": "ვოდკა Eristoff - 15 მლ"
+      },
+      {
+        "value": "ლიქიორი Cointreau - 15 მლ"
+      },
+      {
+        "value": "რომი Bacardi Superior - 15 მლ"
+      },
+      {
+        "value": "ჯინი Gordon's - 15 მლ"
+      },
+      {
+        "value": "ლიმნის წვენი - 25 მლ"
+      },
+      {
+        "value": "შაქრის სიროფი - 30 მლ"
+      },
+      {
+        "value": "Coca-Cola - შევსებით"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ცედრის სპირალი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "MANHATTAN (მანჰეტენი)",
+    "Image": "manhattan.jpg",
+    "altName": "manhattan-cocktail",
+    "ingredients": [
+      {
+        "value": "ვისკი Canadian Club - 50 მლ"
+      },
+      {
+        "value": "ვერმუტი Martini Rosso - 20 მლ"
+      },
+      {
+        "value": "Angostura bitters - 1 დეში"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Stir and Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ალუბალი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "აპერიტივი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "MARY PICKFORD (მერი პიკფორდი)",
+    "Image": "mary.jpg",
+    "altName": "spritz-veneziano-cocktail",
+    "ingredients": [
+      {
+        "value": "რომი Bacardi Superior - 60 მლ"
+      },
+      {
+        "value": "ლიქიორი Maraschino - 10 მლ"
+      },
+      {
+        "value": "სიროფი Grenadine - 10 მლ"
+      },
+      {
+        "value": "ანანასის წვენი - 60 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ალუბალი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "კოქტეილი მთელი დღისთვის",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "MAI-TAI (მაი-ტაი)",
+    "Image": "Mai-Tai.png",
+    "altName": "Mai-Tai-cocktail",
+    "ingredients": [
+      {
+        "value": "რომი Bacardi Superior - 40 მლ"
+      },
+      {
+        "value": "რომი Bacardi Black - 20 მლ"
+      },
+      {
+        "value": "სიროფი Monin Orange Curacao - 15 მლ"
+      },
+      {
+        "value": "ლიქიორი Amaretto Disaronno (ან ნუშის სიროფი) - 15 მლ"
+      },
+      {
+        "value": "ლიმნის წვენი - 10 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ცედრა, ანანასის ნაჭერი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "MIMOSA (მიმოზა)",
+    "Image": "mimosa.jpg",
+    "altName": "mimosa-cocktail",
+    "ingredients": [
+      {
+        "value": "ფორთოხლის წვენი - 75 მლ"
+      },
+      {
+        "value": "შამპანიური - 75 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ფორთოხლის ნაჭერი",
+    "glass": "ჭიქა: ",
+    "glassResponse": " შამპანიურის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "გაზიანი სასმელი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "MARGARITA (მარგარიტა)",
+    "Image": "margarita.jpg",
+    "altName": "margarita-cocktail",
+    "ingredients": [
+      {
+        "value": "ტეკილა Sierra Silver - 35 მლ"
+      },
+      {
+        "value": "ლიქიორი Cuintreau - 20 მლ"
+      },
+      {
+        "value": "ლაიმის წვენი - 15 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "მარილის კრასტა და ლიმონი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "მატგარიტას ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "კოქტეილი მთელი დღისთვის",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "MOJITO (მოხიტო)",
+    "Image": "mojito.jpg",
+    "altName": "mojito-cocktail",
+    "ingredients": [
+      {
+        "value": "პიტნა - 6 ფითოლი"
+      },
+      {
+        "value": "შაქრის ლერწმის შაქარ - 2 ჩ.კ."
+      },
+      {
+        "value": "ლაიმი - 30 მლ"
+      },
+      {
+        "value": "რომი Bacardi Superior - 40 მლ"
+      },
+      {
+        "value": "სოდიანი წყალი - დამატებით"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build & Muddle",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლაიმის რგოლი და პიტნა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "დიჟესტივი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "MOSCOW MULE (მოსკოველი ჯიუტი)",
+    "Image": "moscow-mule.jpg",
+    "altName": "mojito-cocktail",
+    "ingredients": [
+      {
+        "value": "ვოდკა Smirnoff - 45 მლ"
+      },
+      {
+        "value": "ჯანჯაფინის ლუდი - 120 მლ"
+      },
+      {
+        "value": "ლაიმის წვენი - 5 მლ"
+      },
+      {
+        "value": "ლაიმი - 2 ნაჭერი"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლაიმის ნაჭერი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "MINT JULEP (პიტნის ჯულეპი)",
+    "Image": "Mint-julep.jpg",
+    "altName": "Mint-julepito-cocktail",
+    "ingredients": [
+      {
+        "value": "პიტნა - 4 ფითოლი"
+      },
+      {
+        "value": "შაქრის პუდრა - 1 ჩ.კ."
+      },
+      {
+        "value": "წყალი - 2 ჩ.კ."
+      },
+      {
+        "value": "ბურბონი Woodford Reserve - 60 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Muddle",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "პიტნის ღერო",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "MONKEY GLAND (მაიმუნის გლანდები)",
+    "Image": "monkey-gland.jpg",
+    "altName": "monkey-gland-cocktail",
+    "ingredients": [
+      {
+        "value": "ჯინი Gordon's - 50 მლ"
+      },
+      {
+        "value": "ფორთოხლის წვენი - 10 მლ"
+      },
+      {
+        "value": "Absinthe - 2 დეში"
+      },
+      {
+        "value": "Grenadine - 2 დეში"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ფორთოხლის ნაჭერი ან ცედრა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "კოქტეილი მთელი დღისთვის",
+    "modalComponent": "cocktailComponent"
+  },
+  {
     "name": "STINGER (სტინგერი)",
     "Image": "Stinger.jpg",
     "altName": "Stinger-cocktail",
@@ -1095,31 +1406,7 @@
     "categoryResponse": "გაზიანი კოქტეილი",
     "modalComponent": "cocktailComponent"
   },
-  {
-    "name": "MANHATTAN (მანჰეტენი)",
-    "Image": "manhattan.jpg",
-    "altName": "manhattan-cocktail",
-    "ingredients": [
-      {
-        "value": "ვისკი Canadian Club - 50 მლ"
-      },
-      {
-        "value": "ვერმუტი Martini Rosso - 20 მლ"
-      },
-      {
-        "value": "Angostura bitters - 1 დეში"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Stir and Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ალუბალი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "კოქტეილის ბოკალი",
-    "category": "კატეგორია: ",
-    "categoryResponse": "აპერიტივი",
-    "modalComponent": "cocktailComponent"
-  },
+
   {
     "name": "SPRITZ VENEZIANO (ვენეციური სპრიტცი)",
     "Image": "spritz-veneziano.jpeg",
@@ -1143,87 +1430,6 @@
     "glassResponse": "Old Fashioned",
     "category": "კატეგორია: ",
     "categoryResponse": "გაზიანი კოქტეილი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "LEMON DROP (ლიმნის წვეთი)",
-    "Image": "Lemon-Drop.jpg",
-    "altName": "Lemon-Drop-cocktail",
-    "ingredients": [
-      {
-        "value": "ვოდკა Absolute Citron - 25 მლ"
-      },
-      {
-        "value": "ლიქიორი Triple Sec - 20 მლ"
-      },
-      {
-        "value": "ლიმნის წვენი - 30 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Shake & Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლიმნის ნაჭერი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "კოქტეილის ბოკალი",
-    "category": "კატეგორია: ",
-    "categoryResponse": "კოქტეილი მთელი დღისთვის",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "MARY PICKFORD (მერი პიკფორდი)",
-    "Image": "mary.jpg",
-    "altName": "spritz-veneziano-cocktail",
-    "ingredients": [
-      {
-        "value": "რომი Bacardi Superior - 60 მლ"
-      },
-      {
-        "value": "ლიქიორი Maraschino - 10 მლ"
-      },
-      {
-        "value": "სიროფი Grenadine - 10 მლ"
-      },
-      {
-        "value": "ანანასის წვენი - 60 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Shake & Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ალუბალი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "კოქტეილის ბოკალი",
-    "category": "კატეგორია: ",
-    "categoryResponse": "კოქტეილი მთელი დღისთვის",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "MONKEY GLAND (მაიმუნის გლანდები)",
-    "Image": "monkey-gland.jpg",
-    "altName": "monkey-gland-cocktail",
-    "ingredients": [
-      {
-        "value": "ჯინი Gordon's - 50 მლ"
-      },
-      {
-        "value": "ფორთოხლის წვენი - 10 მლ"
-      },
-      {
-        "value": "Absinthe - 2 დეში"
-      },
-      {
-        "value": "Grenadine - 2 დეში"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Shake & Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ფორთოხლის ნაჭერი ან ცედრა",
-    "glass": "ჭიქა: ",
-    "glassResponse": "კოქტეილის ბოკალი",
-    "category": "კატეგორია: ",
-    "categoryResponse": "კოქტეილი მთელი დღისთვის",
     "modalComponent": "cocktailComponent"
   },
   {
@@ -1703,212 +1909,6 @@
     "glassResponse": "Old Fashioned",
     "category": "კატეგორია: ",
     "categoryResponse": "დიჟესტივი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "LONGISLAND ICED TEA (ლონგაილენ აის თი)",
-    "Image": "longisland-iced-tea.jpg",
-    "altName": "longisland-iced-tea-cocktail",
-    "ingredients": [
-      {
-        "value": "ტეკილა Sauza Blanco - 15 მლ"
-      },
-      {
-        "value": "ვოდკა Eristoff - 15 მლ"
-      },
-      {
-        "value": "ლიქიორი Cointreau - 15 მლ"
-      },
-      {
-        "value": "რომი Bacardi Superior - 15 მლ"
-      },
-      {
-        "value": "ჯინი Gordon's - 15 მლ"
-      },
-      {
-        "value": "ლიმნის წვენი - 25 მლ"
-      },
-      {
-        "value": "შაქრის სიროფი - 30 მლ"
-      },
-      {
-        "value": "Coca-Cola - შევსებით"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Build",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლიმნის ცედრის სპირალი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Highball",
-    "category": "კატეგორია: ",
-    "categoryResponse": "ლონგდრინქი",
-    "modalComponent": "cocktailComponent"
-  },
-
-  {
-    "name": "MAI-TAI (მაი-ტაი)",
-    "Image": "Mai-Tai.png",
-    "altName": "Mai-Tai-cocktail",
-    "ingredients": [
-      {
-        "value": "რომი Bacardi Superior - 40 მლ"
-      },
-      {
-        "value": "რომი Bacardi Black - 20 მლ"
-      },
-      {
-        "value": "სიროფი Monin Orange Curacao - 15 მლ"
-      },
-      {
-        "value": "ლიქიორი Amaretto Disaronno (ან ნუშის სიროფი) - 15 მლ"
-      },
-      {
-        "value": "ლიმნის წვენი - 10 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Shake & Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლიმნის ცედრა, ანანასის ნაჭერი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Highball",
-    "category": "კატეგორია: ",
-    "categoryResponse": "ლონგდრინქი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "MIMOSA (მიმოზა)",
-    "Image": "mimosa.jpg",
-    "altName": "mimosa-cocktail",
-    "ingredients": [
-      {
-        "value": "ფორთოხლის წვენი - 75 მლ"
-      },
-      {
-        "value": "შამპანიური - 75 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Build",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ფორთოხლის ნაჭერი",
-    "glass": "ჭიქა: ",
-    "glassResponse": " შამპანიურის ბოკალი",
-    "category": "კატეგორია: ",
-    "categoryResponse": "გაზიანი სასმელი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "MARGARITA (მარგარიტა)",
-    "Image": "margarita.jpg",
-    "altName": "margarita-cocktail",
-    "ingredients": [
-      {
-        "value": "ტეკილა Sierra Silver - 35 მლ"
-      },
-      {
-        "value": "ლიქიორი Cuintreau - 20 მლ"
-      },
-      {
-        "value": "ლაიმის წვენი - 15 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Shake & Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "მარილის კრასტა და ლიმონი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "მატგარიტას ბოკალი",
-    "category": "კატეგორია: ",
-    "categoryResponse": "კოქტეილი მთელი დღისთვის",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "MOJITO (მოხიტო)",
-    "Image": "mojito.jpg",
-    "altName": "mojito-cocktail",
-    "ingredients": [
-      {
-        "value": "პიტნა - 6 ფითოლი"
-      },
-      {
-        "value": "შაქრის ლერწმის შაქარ - 2 ჩ.კ."
-      },
-      {
-        "value": "ლაიმი - 30 მლ"
-      },
-      {
-        "value": "რომი Bacardi Superior - 40 მლ"
-      },
-      {
-        "value": "სოდიანი წყალი - დამატებით"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Build & Muddle",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლაიმის რგოლი და პიტნა",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Highball",
-    "category": "კატეგორია: ",
-    "categoryResponse": "დიჟესტივი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "MOSCOW MULE (მოსკოველი ჯიუტი)",
-    "Image": "moscow-mule.jpg",
-    "altName": "mojito-cocktail",
-    "ingredients": [
-      {
-        "value": "ვოდკა Smirnoff - 45 მლ"
-      },
-      {
-        "value": "ჯანჯაფინის ლუდი - 120 მლ"
-      },
-      {
-        "value": "ლაიმის წვენი - 5 მლ"
-      },
-      {
-        "value": "ლაიმი - 2 ნაჭერი"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Build",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლაიმის ნაჭერი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Highball",
-    "category": "კატეგორია: ",
-    "categoryResponse": "ლონგდრინქი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "MINT JULEP (პიტნის ჯულეპი)",
-    "Image": "Mint-julep.jpg",
-    "altName": "Mint-julepito-cocktail",
-    "ingredients": [
-      {
-        "value": "პიტნა - 4 ფითოლი"
-      },
-      {
-        "value": "შაქრის პუდრა - 1 ჩ.კ."
-      },
-      {
-        "value": "წყალი - 2 ჩ.კ."
-      },
-      {
-        "value": "ბურბონი Woodford Reserve - 60 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Muddle",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "პიტნის ღერო",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Highball",
-    "category": "კატეგორია: ",
-    "categoryResponse": "ლონგდრინქი",
     "modalComponent": "cocktailComponent"
   },
   {
