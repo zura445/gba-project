@@ -6,7 +6,7 @@ interface NewsItem {
   title: string;
   details?: string;
   topic1: string;
-  topic2: string;
+  topic2?: string;
   topic3: string;
   topic4?: string;
   topic5?: string;
