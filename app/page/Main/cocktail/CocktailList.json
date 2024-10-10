@@ -1323,6 +1323,31 @@
     "modalComponent": "cocktailComponent"
   },
   {
+    "name": "NEGRON (ნეგრონი)",
+    "Image": "negroni.jpg",
+    "altName": "negroni-cocktail",
+    "ingredients": [
+      {
+        "value": "ჯინი Beefeater - 30 მლ"
+      },
+      {
+        "value": "Campari Bitter - 30 მლ"
+      },
+      {
+        "value": "Martini Rosso - 30 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ფორთოხლის ნაჭერი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Old Fashioned",
+    "category": "კატეგორია: ",
+    "categoryResponse": "აპერიტივი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
     "name": "STINGER (სტინგერი)",
     "Image": "Stinger.jpg",
     "altName": "Stinger-cocktail",
@@ -1430,31 +1455,6 @@
     "glassResponse": "Old Fashioned",
     "category": "კატეგორია: ",
     "categoryResponse": "გაზიანი კოქტეილი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "NEGRON (ნეგრონი)",
-    "Image": "negroni.jpg",
-    "altName": "negroni-cocktail",
-    "ingredients": [
-      {
-        "value": "ჯინი Beefeater - 30 მლ"
-      },
-      {
-        "value": "Campari Bitter - 30 მლ"
-      },
-      {
-        "value": "Martini Rosso - 30 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Build",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ფორთოხლის ნაჭერი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Old Fashioned",
-    "category": "კატეგორია: ",
-    "categoryResponse": "აპერიტივი",
     "modalComponent": "cocktailComponent"
   },
   {
