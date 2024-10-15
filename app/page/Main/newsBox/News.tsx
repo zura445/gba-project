@@ -1,5 +1,5 @@
 import React from "react";
-import rawNewsData from "./new.json";
+import rawNewsData from "./New.json";
 import Image from "next/image";
 
 interface NewsItem {
