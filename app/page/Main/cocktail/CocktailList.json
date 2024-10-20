@@ -1348,6 +1348,34 @@
     "modalComponent": "cocktailComponent"
   },
   {
+    "name": "OLD FASHIONED (ძველმოდური)",
+    "Image": "old-fashioned.jpg",
+    "altName": "old-fashioned-cocktail",
+    "ingredients": [
+      {
+        "value": "ვისკი Canadian Club - 30 მლ"
+      },
+      {
+        "value": "Angostura Bitter - 30 მლ"
+      },
+      {
+        "value": "შაქრის კუბიკი - 1 ცალი"
+      },
+      {
+        "value": "სოდიანი ან წყაროს წყალი - 5 დეში"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": " ფორთოხლის ნაჭერი და ალუბალი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Old Fashioned",
+    "category": "კატეგორია: ",
+    "categoryResponse": "აპერიტივი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
     "name": "STINGER (სტინგერი)",
     "Image": "Stinger.jpg",
     "altName": "Stinger-cocktail",
@@ -1455,34 +1483,6 @@
     "glassResponse": "Old Fashioned",
     "category": "კატეგორია: ",
     "categoryResponse": "გაზიანი კოქტეილი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "OLD FASHIONED (ძველმოდური)",
-    "Image": "old-fashioned.jpg",
-    "altName": "old-fashioned-cocktail",
-    "ingredients": [
-      {
-        "value": "ვისკი Canadian Club - 30 მლ"
-      },
-      {
-        "value": "Angostura Bitter - 30 მლ"
-      },
-      {
-        "value": "შაქრის კუბიკი - 1 ცალი"
-      },
-      {
-        "value": "სოდიანი ან წყაროს წყალი - 5 დეში"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Build",
-    "garnish": "გარნირი: ",
-    "garnishResponse": " ფორთოხლის ნაჭერი და ალუბალი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Old Fashioned",
-    "category": "კატეგორია: ",
-    "categoryResponse": "აპერიტივი",
     "modalComponent": "cocktailComponent"
   },
   {
