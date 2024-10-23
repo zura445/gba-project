@@ -1376,116 +1376,6 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "STINGER (სტინგერი)",
-    "Image": "Stinger.jpg",
-    "altName": "Stinger-cocktail",
-    "ingredients": [
-      {
-        "value": "Hennessy V.S.O.P - 50 მლ"
-      },
-      {
-        "value": "Creme De Menthe - 20 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Stir and Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "პიტნა",
-    "glass": "ჭიქა: ",
-    "glassResponse": "კოქტეილის ბოკალი",
-    "category": "კატეგორია: ",
-    "categoryResponse": "დიჟესტივი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "PISCO SOUR (პისკო საუერი)",
-    "Image": "pisco.jpg",
-    "altName": "pisco-cocktail",
-    "ingredients": [
-      {
-        "value": "Pisco - 45 მლ"
-      },
-      {
-        "value": "ლიმნის წვენი - 30 მლ"
-      },
-      {
-        "value": "შაქრის სიროფი - 20 მლ"
-      },
-      {
-        "value": "კვერცხის ცილა - 1 ც"
-      },
-      {
-        "value": "Angostura bitters - 1 დეში"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Shake & Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლიმნის ნაჭერი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Old Fashioned",
-    "category": "კატეგორია: ",
-    "categoryResponse": "კოქტეილი მთელი დღისთვის",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "RUSSIAN SPRING PUNCH (საგაზაფხულო რუსული პუნში)",
-    "Image": "russian-spring-punch.jpg",
-    "altName": "russian-spring-punch-cocktail",
-    "ingredients": [
-      {
-        "value": "ვოდკა Eristof - 45 მლ"
-      },
-      {
-        "value": "ლიმნის წვენი - 25 მლ"
-      },
-      {
-        "value": "Crem De Cassise - 15 მლ"
-      },
-      {
-        "value": "შაქრის სიროფი - 10 მლ"
-      },
-      {
-        "value": "დავამატოთ ცქრიალა ღვინო"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Shake & Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლიმნის ნაჭერი და მაყვალი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Highball",
-    "category": "კატეგორია: ",
-    "categoryResponse": "გაზიანი კოქტეილი",
-    "modalComponent": "cocktailComponent"
-  },
-
-  {
-    "name": "SPRITZ VENEZIANO (ვენეციური სპრიტცი)",
-    "Image": "spritz-veneziano.jpeg",
-    "altName": "spritz-veneziano-cocktail",
-    "ingredients": [
-      {
-        "value": "მარტინი Prosecco - 60 მლ"
-      },
-      {
-        "value": "Aperol - 40 მლ"
-      },
-      {
-        "value": "სოდიანი წყავი დავამატოთ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "build",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლიმონი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Old Fashioned",
-    "category": "კატეგორია: ",
-    "categoryResponse": "გაზიანი კოქტეილი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
     "name": "PARADISE (სამოთხე)",
     "Image": "paradise.jpg",
     "altName": "paradise-cocktail",
@@ -1548,6 +1438,166 @@
     "modalComponent": "cocktailComponent"
   },
   {
+    "name": "PINA COLADA (პინა კოლადა)",
+    "Image": "pina-colada.jpg",
+    "altName": "pina-colada-cocktail",
+    "ingredients": [
+      {
+        "value": "რომი Bacardi Superior - 30 მლ"
+      },
+      {
+        "value": "ანანასის წვენი - 90 მლ"
+      },
+      {
+        "value": "ქოქოსის რძე - 30 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Blend",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ანანასის ნაჭერი და ალუბალი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Hurricane",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "PISCO SOUR (პისკო საუერი)",
+    "Image": "pisco.jpg",
+    "altName": "pisco-cocktail",
+    "ingredients": [
+      {
+        "value": "Pisco - 45 მლ"
+      },
+      {
+        "value": "ლიმნის წვენი - 30 მლ"
+      },
+      {
+        "value": "შაქრის სიროფი - 20 მლ"
+      },
+      {
+        "value": "კვერცხის ცილა - 1 ც"
+      },
+      {
+        "value": "Angostura bitters - 1 დეში"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ნაჭერი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Old Fashioned",
+    "category": "კატეგორია: ",
+    "categoryResponse": "კოქტეილი მთელი დღისთვის",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "PORTO FLIP (პორტო ფლიპი)",
+    "Image": "Porto_flip.jpg",
+    "altName": "Porto_flip-cocktail",
+    "ingredients": [
+      {
+        "value": "კონიაკი Gautier - 15 მლ"
+      },
+      {
+        "value": "წითელი პორტვეინი - 45 მლ"
+      },
+      {
+        "value": "კვერცხის გული - 10 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": " shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "გახეხილი მუსკატის კაკალი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "დიჟესტივი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "STINGER (სტინგერი)",
+    "Image": "Stinger.jpg",
+    "altName": "Stinger-cocktail",
+    "ingredients": [
+      {
+        "value": "Hennessy V.S.O.P - 50 მლ"
+      },
+      {
+        "value": "Creme De Menthe - 20 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Stir and Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "პიტნა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "დიჟესტივი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "RUSSIAN SPRING PUNCH (საგაზაფხულო რუსული პუნში)",
+    "Image": "russian-spring-punch.jpg",
+    "altName": "russian-spring-punch-cocktail",
+    "ingredients": [
+      {
+        "value": "ვოდკა Eristof - 45 მლ"
+      },
+      {
+        "value": "ლიმნის წვენი - 25 მლ"
+      },
+      {
+        "value": "Crem De Cassise - 15 მლ"
+      },
+      {
+        "value": "შაქრის სიროფი - 10 მლ"
+      },
+      {
+        "value": "დავამატოთ ცქრიალა ღვინო"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ნაჭერი და მაყვალი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "გაზიანი კოქტეილი",
+    "modalComponent": "cocktailComponent"
+  },
+
+  {
+    "name": "SPRITZ VENEZIANO (ვენეციური სპრიტცი)",
+    "Image": "spritz-veneziano.jpeg",
+    "altName": "spritz-veneziano-cocktail",
+    "ingredients": [
+      {
+        "value": "მარტინი Prosecco - 60 მლ"
+      },
+      {
+        "value": "Aperol - 40 მლ"
+      },
+      {
+        "value": "სოდიანი წყავი დავამატოთ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმონი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Old Fashioned",
+    "category": "კატეგორია: ",
+    "categoryResponse": "გაზიანი კოქტეილი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
     "name": "VAMPIRO (ვამპირი)",
     "Image": "vampiro.jpg",
     "altName": "vampiro-cocktail",
@@ -1585,31 +1635,6 @@
     "glassResponse": "Highball",
     "category": "კატეგორია: ",
     "categoryResponse": "ლონგდრინქი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "PORTO FLIP (პორტო ფლიპი)",
-    "Image": "Porto_flip.jpg",
-    "altName": "Porto_flip-cocktail",
-    "ingredients": [
-      {
-        "value": "კონიაკი Gautier - 15 მლ"
-      },
-      {
-        "value": "წითელი პორტვეინი - 45 მლ"
-      },
-      {
-        "value": "კვერცხის გული - 10 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": " shake & Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "გახეხილი მუსკატის კაკალი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "კოქტეილის ბოკალი",
-    "category": "კატეგორია: ",
-    "categoryResponse": "დიჟესტივი",
     "modalComponent": "cocktailComponent"
   },
   {
@@ -1909,31 +1934,6 @@
     "glassResponse": "Old Fashioned",
     "category": "კატეგორია: ",
     "categoryResponse": "დიჟესტივი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "PINA COLADA (პინა კოლადა)",
-    "Image": "pina-colada.jpg",
-    "altName": "pina-colada-cocktail",
-    "ingredients": [
-      {
-        "value": "რომი Bacardi Superior - 30 მლ"
-      },
-      {
-        "value": "ანანასის წვენი - 90 მლ"
-      },
-      {
-        "value": "ქოქოსის რძე - 30 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Blend",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ანანასის ნაჭერი და ალუბალი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Hurricane",
-    "category": "კატეგორია: ",
-    "categoryResponse": "ლონგდრინქი",
     "modalComponent": "cocktailComponent"
   },
   {
