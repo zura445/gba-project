@@ -1519,23 +1519,88 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "STINGER (სტინგერი)",
-    "Image": "Stinger.jpg",
-    "altName": "Stinger-cocktail",
+    "name": "RAMOS FIZZ (რამოს ფიზი)",
+    "Image": "ramos-fizz.jpg",
+    "altName": "ramos-fizz-cocktail",
     "ingredients": [
       {
-        "value": "Hennessy V.S.O.P - 50 მლ"
+        "value": "ჯინი Gordon's - 45 მლ"
       },
       {
-        "value": "Creme De Menthe - 20 მლ"
+        "value": "ლაიმის წვენი - 15 მლ"
+      },
+      {
+        "value": "შაქრის სიროფი - 30 მლ"
+      },
+      {
+        "value": "ნაღები - 60 მლ"
+      },
+      {
+        "value": "კვერცხის ცილა - 10 მლ"
+      },
+      {
+        "value": "წყალი ფორთოხლის არომატით - 3 დეში"
+      },
+      {
+        "value": "ვანილის ექსტრაქტი - 2 დეში"
+      },
+      {
+        "value": "დავამატოთ სოდიანი წყალი"
       }
     ],
     "method": "მეთოდი: ",
-    "methodResponse": "Stir and Strain",
+    "methodResponse": " shake & Strain",
     "garnish": "გარნირი: ",
-    "garnishResponse": "პიტნა",
+    "garnishResponse": "ფორთოხლის ნაჭერი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "ROSE (ვარდი)",
+    "Image": "rose.jpg",
+    "altName": "dirty-martini-cocktail",
+    "ingredients": [
+      {
+        "value": "Kirsch - 20 მლ"
+      },
+      {
+        "value": "Martini Extra Dry - 40 მლ"
+      },
+      {
+        "value": "მარწყვის სიროფი - 3 დეში"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Stir & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "",
     "glass": "ჭიქა: ",
     "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "დიჟესტივი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "RUSTY NAIL (ჟანგიანი ლურსმანი)",
+    "Image": "rusty-nail.jpg",
+    "altName": "rusty-nail-cocktail",
+    "ingredients": [
+      {
+        "value": "ვისკი Johnnie Walker Red Label - 45 მლ"
+      },
+      {
+        "value": "ლიქიორი Drambuie - 15 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ცედრა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Old Fashioned",
     "category": "კატეგორია: ",
     "categoryResponse": "დიჟესტივი",
     "modalComponent": "cocktailComponent"
@@ -1571,7 +1636,28 @@
     "categoryResponse": "გაზიანი კოქტეილი",
     "modalComponent": "cocktailComponent"
   },
-
+  {
+    "name": "STINGER (სტინგერი)",
+    "Image": "Stinger.jpg",
+    "altName": "Stinger-cocktail",
+    "ingredients": [
+      {
+        "value": "Hennessy V.S.O.P - 50 მლ"
+      },
+      {
+        "value": "Creme De Menthe - 20 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Stir and Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "პიტნა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "დიჟესტივი",
+    "modalComponent": "cocktailComponent"
+  },
   {
     "name": "SPRITZ VENEZIANO (ვენეციური სპრიტცი)",
     "Image": "spritz-veneziano.jpeg",
@@ -1660,68 +1746,6 @@
     "glassResponse": "კოქტეილის ბოკალი",
     "category": "კატეგორია: ",
     "categoryResponse": "აპერიტივი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "RAMOS FIZZ (რამოს ფიზი)",
-    "Image": "ramos-fizz.jpg",
-    "altName": "ramos-fizz-cocktail",
-    "ingredients": [
-      {
-        "value": "ჯინი Gordon's - 45 მლ"
-      },
-      {
-        "value": "ლაიმის წვენი - 15 მლ"
-      },
-      {
-        "value": "შაქრის სიროფი - 30 მლ"
-      },
-      {
-        "value": "ნაღები - 60 მლ"
-      },
-      {
-        "value": "კვერცხის ცილა - 10 მლ"
-      },
-      {
-        "value": "წყალი ფორთოხლის არომატით - 3 დეში"
-      },
-      {
-        "value": "ვანილის ექსტრაქტი - 2 დეში"
-      },
-      {
-        "value": "დავამატოთ სოდიანი წყალი"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": " shake & Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ფორთოხლის ნაჭერი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Highball",
-    "category": "კატეგორია: ",
-    "categoryResponse": "ლონგდრინქი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "RUSTY NAIL (ჟანგიანი ლურსმანი)",
-    "Image": "rusty-nail.jpg",
-    "altName": "rusty-nail-cocktail",
-    "ingredients": [
-      {
-        "value": "ვისკი Johnnie Walker Red Label - 45 მლ"
-      },
-      {
-        "value": "ლიქიორი Drambuie - 15 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "build",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლიმნის ცედრა",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Old Fashioned",
-    "category": "კატეგორია: ",
-    "categoryResponse": "დიჟესტივი",
     "modalComponent": "cocktailComponent"
   },
   {
@@ -1932,31 +1956,6 @@
     "garnishResponse": "",
     "glass": "ჭიქა: ",
     "glassResponse": "Old Fashioned",
-    "category": "კატეგორია: ",
-    "categoryResponse": "დიჟესტივი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "ROSE (ვარდი)",
-    "Image": "rose.jpg",
-    "altName": "dirty-martini-cocktail",
-    "ingredients": [
-      {
-        "value": "Kirsch - 20 მლ"
-      },
-      {
-        "value": "Martini Extra Dry - 40 მლ"
-      },
-      {
-        "value": "მარწყვის სიროფი - 3 დეში"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Stir & Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "",
-    "glass": "ჭიქა: ",
-    "glassResponse": "კოქტეილის ბოკალი",
     "category": "კატეგორია: ",
     "categoryResponse": "დიჟესტივი",
     "modalComponent": "cocktailComponent"
