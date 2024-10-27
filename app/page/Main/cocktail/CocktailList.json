@@ -1637,25 +1637,168 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "STINGER (სტინგერი)",
-    "Image": "Stinger.jpg",
-    "altName": "Stinger-cocktail",
+    "name": "SAZERAC (საზერაკი)",
+    "Image": "sazerac.jpg",
+    "altName": "sazerac-cocktail",
     "ingredients": [
       {
-        "value": "Hennessy V.S.O.P - 50 მლ"
+        "value": "Absinth - 10 მლ"
       },
       {
-        "value": "Creme De Menthe - 20 მლ"
+        "value": "კონიაკი Hennessy - 50 მლ"
+      },
+      {
+        "value": "Peychaud's bitters - 2 დეში"
+      },
+      {
+        "value": "შაქარი კუბიკი - 1 ცალი"
       }
     ],
     "method": "მეთოდი: ",
     "methodResponse": "Stir and Strain",
     "garnish": "გარნირი: ",
-    "garnishResponse": "პიტნა",
+    "garnishResponse": "ლიმნის ცედრა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Old Fashioned",
+    "category": "კატეგორია: ",
+    "categoryResponse": "დიჟესტივი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "SCREWDRIVER (სახრახნისი)",
+    "Image": "screwdriver.jpg",
+    "altName": "screwdriver-cocktail",
+    "ingredients": [
+      {
+        "value": "ვოდკა Eristoff - 50 მლ"
+      },
+      {
+        "value": "ფორტოხლის წვენი - 100 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ფორთოხლის ნაჭერი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "კოქტეილი მთელი დღისთვის",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "SEA BREEZE (ზღვის ბრიზი)",
+    "Image": "sea-breeze.jpg",
+    "altName": "sea-breeze-cocktail",
+    "ingredients": [
+      {
+        "value": "ვოდკა Finlandia - 40 მლ"
+      },
+      {
+        "value": "შტოშის წვენი - 120 მლ"
+      },
+      {
+        "value": "გრეიფრუტის წვენი - 30 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ცედრა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "SEX ON THE BEACH (სექსი პლაჟზე)",
+    "Image": "sex-on-the-beach.jpg",
+    "altName": "sex-on-the-beach-cocktail",
+    "ingredients": [
+      {
+        "value": "ვოდკა Eristoff - 40 მლ"
+      },
+      {
+        "value": "ატმის შნაპსი - 20 მლ"
+      },
+      {
+        "value": "შტოშის წვენი - 40 მლ"
+      },
+      {
+        "value": "ფორთოხლის წვენი - 40 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ფორთოხლის ნაჭერი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "SINGAPORE SLING (სინგაპურ სლინგი)",
+    "Image": "Singapore-Sling.jpg",
+    "altName": "Singapore-Sling-cocktail",
+    "ingredients": [
+      {
+        "value": "ჯინი Gordon's - 30 მლ"
+      },
+      {
+        "value": "Maria Brizard Cherry - 15 მლ"
+      },
+      {
+        "value": "ლიქიორი Cointreau - 7,5 მლ"
+      },
+      {
+        "value": "ლიქიორი Bebedictine - 7,5 მლ"
+      },
+      {
+        "value": "ანანასის წვენი - 120 მლ"
+      },
+      {
+        "value": "ლაიმის წვენი - 15 მლ"
+      },
+      {
+        "value": "სიროფი Grenadine - 10 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ანანასის ნაჭერი და ალუბალი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "SIDE CAR (საიდკარი)",
+    "Image": "side-car.jpg",
+    "altName": "side-car-cocktail",
+    "ingredients": [
+      {
+        "value": "კონიაკი Hennessy V.S.O.P - 50 მლ"
+      },
+      {
+        "value": "ლიქიორი Triple Sec - 20 მლ"
+      },
+      {
+        "value": "ლიმნის წვენი - 20 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ლიმნის ცედრა",
     "glass": "ჭიქა: ",
     "glassResponse": "კოქტეილის ბოკალი",
     "category": "კატეგორია: ",
-    "categoryResponse": "დიჟესტივი",
+    "categoryResponse": "კოქტეილი მთელი დღისთვის",
     "modalComponent": "cocktailComponent"
   },
   {
@@ -1681,6 +1824,28 @@
     "glassResponse": "Old Fashioned",
     "category": "კატეგორია: ",
     "categoryResponse": "გაზიანი კოქტეილი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "STINGER (სტინგერი)",
+    "Image": "Stinger.jpg",
+    "altName": "Stinger-cocktail",
+    "ingredients": [
+      {
+        "value": "Hennessy V.S.O.P - 50 მლ"
+      },
+      {
+        "value": "Creme De Menthe - 20 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Stir and Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "პიტნა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "დიჟესტივი",
     "modalComponent": "cocktailComponent"
   },
   {
@@ -1749,34 +1914,6 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "SAZERAC (საზერაკი)",
-    "Image": "sazerac.jpg",
-    "altName": "sazerac-cocktail",
-    "ingredients": [
-      {
-        "value": "Absinth - 10 მლ"
-      },
-      {
-        "value": "კონიაკი Hennessy - 50 მლ"
-      },
-      {
-        "value": "Peychaud's bitters - 2 დეში"
-      },
-      {
-        "value": "შაქარი კუბიკი - 1 ცალი"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Stir and Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლიმნის ცედრა",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Old Fashioned",
-    "category": "კატეგორია: ",
-    "categoryResponse": "დიჟესტივი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
     "name": "YELLOW BIRD (ყვითელი ჩიტი)",
     "Image": "Yellow-bird.jpg",
     "altName": "Yellow-bird-cocktail",
@@ -1798,53 +1935,6 @@
     "methodResponse": "Shake & Strain",
     "garnish": "გარნირი: ",
     "garnishResponse": "",
-    "glass": "ჭიქა: ",
-    "glassResponse": "კოქტეილის ბოკალი",
-    "category": "კატეგორია: ",
-    "categoryResponse": "კოქტეილი მთელი დღისთვის",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "SCREWDRIVER (სახრახნისი)",
-    "Image": "screwdriver.jpg",
-    "altName": "screwdriver-cocktail",
-    "ingredients": [
-      {
-        "value": "ვოდკა Eristoff - 50 მლ"
-      },
-      {
-        "value": "ფორტოხლის წვენი - 100 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Build",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ფორთოხლის ნაჭერი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Highball",
-    "category": "კატეგორია: ",
-    "categoryResponse": "კოქტეილი მთელი დღისთვის",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "SIDE CAR (საიდკარი)",
-    "Image": "side-car.jpg",
-    "altName": "side-car-cocktail",
-    "ingredients": [
-      {
-        "value": "კონიაკი Hennessy V.S.O.P - 50 მლ"
-      },
-      {
-        "value": "ლიქიორი Triple Sec - 20 მლ"
-      },
-      {
-        "value": "ლიმნის წვენი - 20 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Shake & Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლიმნის ცედრა",
     "glass": "ჭიქა: ",
     "glassResponse": "კოქტეილის ბოკალი",
     "category": "კატეგორია: ",
@@ -1958,96 +2048,6 @@
     "glassResponse": "Old Fashioned",
     "category": "კატეგორია: ",
     "categoryResponse": "დიჟესტივი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "SEA BREEZE (ზღვის ბრიზი)",
-    "Image": "sea-breeze.jpg",
-    "altName": "sea-breeze-cocktail",
-    "ingredients": [
-      {
-        "value": "ვოდკა Finlandia - 40 მლ"
-      },
-      {
-        "value": "შტოშის წვენი - 120 მლ"
-      },
-      {
-        "value": "გრეიფრუტის წვენი - 30 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Build",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ლიმნის ცედრა",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Highball",
-    "category": "კატეგორია: ",
-    "categoryResponse": "ლონგდრინქი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "SEX ON THE BEACH (სექსი პლაჟზე)",
-    "Image": "sex-on-the-beach.jpg",
-    "altName": "sex-on-the-beach-cocktail",
-    "ingredients": [
-      {
-        "value": "ვოდკა Eristoff - 40 მლ"
-      },
-      {
-        "value": "ატმის შნაპსი - 20 მლ"
-      },
-      {
-        "value": "შტოშის წვენი - 40 მლ"
-      },
-      {
-        "value": "ფორთოხლის წვენი - 40 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Build",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ფორთოხლის ნაჭერი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Highball",
-    "category": "კატეგორია: ",
-    "categoryResponse": "ლონგდრინქი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "SINGAPORE SLING (სინგაპურ სლინგი)",
-    "Image": "Singapore-Sling.jpg",
-    "altName": "Singapore-Sling-cocktail",
-    "ingredients": [
-      {
-        "value": "ჯინი Gordon's - 30 მლ"
-      },
-      {
-        "value": "Maria Brizard Cherry - 15 მლ"
-      },
-      {
-        "value": "ლიქიორი Cointreau - 7,5 მლ"
-      },
-      {
-        "value": "ლიქიორი Bebedictine - 7,5 მლ"
-      },
-      {
-        "value": "ანანასის წვენი - 120 მლ"
-      },
-      {
-        "value": "ლაიმის წვენი - 15 მლ"
-      },
-      {
-        "value": "სიროფი Grenadine - 10 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Shake & Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ანანასის ნაჭერი და ალუბალი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Highball",
-    "category": "კატეგორია: ",
-    "categoryResponse": "ლონგდრინქი",
     "modalComponent": "cocktailComponent"
   },
   {
