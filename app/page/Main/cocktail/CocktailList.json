@@ -1849,6 +1849,62 @@
     "modalComponent": "cocktailComponent"
   },
   {
+    "name": "TEQUILA SUNRISE (ტეკილა სანრაიზი)",
+    "Image": "tequila-sunrise.png",
+    "altName": "tequila-sunrise",
+    "ingredients": [
+      {
+        "value": "ტეკილა Olmeca Blanco - 45 მლ"
+      },
+      {
+        "value": "ფორთოხლის წვენი - 90 მლ"
+      },
+      {
+        "value": "სიროფი Grenadine - 15 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Build",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ფორთოხლის ნაჭერი და ალუბალი",
+    "glass": "ჭიქა: ",
+    "glassResponse": "Highball",
+    "category": "კატეგორია: ",
+    "categoryResponse": "ლონგდრინქი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "TUXEDO (სმოკინგი)",
+    "Image": "tuxedo.jpg",
+    "altName": "tuxedo-cocktail",
+    "ingredients": [
+      {
+        "value": "ჯინი Beefeater - 30 მლ"
+      },
+      {
+        "value": "Martini Dry - 30 მლ"
+      },
+      {
+        "value": "ლიქიორი maraschino - 1 ბარის კოვზი"
+      },
+      {
+        "value": "Absent - 1 ბარის კოვზი"
+      },
+      {
+        "value": "Orange Bitters - 3 დეში"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Stir & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "ალუბალი და ლიმნის ცედრა",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "კოქტეილი მთელი დღისთვის",
+    "modalComponent": "cocktailComponent"
+  },
+  {
     "name": "VAMPIRO (ვამპირი)",
     "Image": "vampiro.jpg",
     "altName": "vampiro-cocktail",
@@ -1995,37 +2051,6 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "TUXEDO (სმოკინგი)",
-    "Image": "tuxedo.jpg",
-    "altName": "tuxedo-cocktail",
-    "ingredients": [
-      {
-        "value": "ჯინი Beefeater - 30 მლ"
-      },
-      {
-        "value": "Martini Dry - 30 მლ"
-      },
-      {
-        "value": "ლიქიორი maraschino - 1 ბარის კოვზი"
-      },
-      {
-        "value": "Absent - 1 ბარის კოვზი"
-      },
-      {
-        "value": "Orange Bitters - 3 დეში"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Stir & Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ალუბალი და ლიმნის ცედრა",
-    "glass": "ჭიქა: ",
-    "glassResponse": "კოქტეილის ბოკალი",
-    "category": "კატეგორია: ",
-    "categoryResponse": "კოქტეილი მთელი დღისთვის",
-    "modalComponent": "cocktailComponent"
-  },
-  {
     "name": "WHITE RUSSIAN (თეთრი რუსი)",
     "Image": "white-russion.jpg",
     "altName": "belini-cocktail",
@@ -2048,31 +2073,6 @@
     "glassResponse": "Old Fashioned",
     "category": "კატეგორია: ",
     "categoryResponse": "დიჟესტივი",
-    "modalComponent": "cocktailComponent"
-  },
-  {
-    "name": "TEQUILA SUNRISE (ტეკილა სანრაიზი)",
-    "Image": "tequila-sunrise.png",
-    "altName": "tequila-sunrise",
-    "ingredients": [
-      {
-        "value": "ტეკილა Olmeca Blanco - 45 მლ"
-      },
-      {
-        "value": "ფორთოხლის წვენი - 90 მლ"
-      },
-      {
-        "value": "სიროფი Grenadine - 15 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Build",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "ფორთოხლის ნაჭერი და ალუბალი",
-    "glass": "ჭიქა: ",
-    "glassResponse": "Highball",
-    "category": "კატეგორია: ",
-    "categoryResponse": "ლონგდრინქი",
     "modalComponent": "cocktailComponent"
   }
 ]
