@@ -1970,34 +1970,6 @@
     "modalComponent": "cocktailComponent"
   },
   {
-    "name": "YELLOW BIRD (ყვითელი ჩიტი)",
-    "Image": "Yellow-bird.jpg",
-    "altName": "Yellow-bird-cocktail",
-    "ingredients": [
-      {
-        "value": "რომი Bacardi Superior - 30 მლ"
-      },
-      {
-        "value": "ლიქიორი Galliano - 15 მლ"
-      },
-      {
-        "value": "ლიქიორი Triple Sec - 15 მლ"
-      },
-      {
-        "value": "ლიმნის წვენი - 15 მლ"
-      }
-    ],
-    "method": "მეთოდი: ",
-    "methodResponse": "Shake & Strain",
-    "garnish": "გარნირი: ",
-    "garnishResponse": "",
-    "glass": "ჭიქა: ",
-    "glassResponse": "კოქტეილის ბოკალი",
-    "category": "კატეგორია: ",
-    "categoryResponse": "კოქტეილი მთელი დღისთვის",
-    "modalComponent": "cocktailComponent"
-  },
-  {
     "name": "WHISKEY SOUR (ვისკი საუერი)",
     "Image": "whiskey-sour.jpg",
     "altName": "whiskey-sour-cocktail",
@@ -2073,6 +2045,34 @@
     "glassResponse": "Old Fashioned",
     "category": "კატეგორია: ",
     "categoryResponse": "დიჟესტივი",
+    "modalComponent": "cocktailComponent"
+  },
+  {
+    "name": "YELLOW BIRD (ყვითელი ჩიტი)",
+    "Image": "Yellow-bird.jpg",
+    "altName": "Yellow-bird-cocktail",
+    "ingredients": [
+      {
+        "value": "რომი Bacardi Superior - 30 მლ"
+      },
+      {
+        "value": "ლიქიორი Galliano - 15 მლ"
+      },
+      {
+        "value": "ლიქიორი Triple Sec - 15 მლ"
+      },
+      {
+        "value": "ლიმნის წვენი - 15 მლ"
+      }
+    ],
+    "method": "მეთოდი: ",
+    "methodResponse": "Shake & Strain",
+    "garnish": "გარნირი: ",
+    "garnishResponse": "",
+    "glass": "ჭიქა: ",
+    "glassResponse": "კოქტეილის ბოკალი",
+    "category": "კატეგორია: ",
+    "categoryResponse": "კოქტეილი მთელი დღისთვის",
     "modalComponent": "cocktailComponent"
   }
 ]
