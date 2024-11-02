@@ -776,7 +776,7 @@
   },
   {
     "name": "GRASSHOPPER (კალია)",
-    "Image": "Grasshopper.jpg",
+    "Image": "Grasshopper.JPG",
     "altName": "Grasshopper-cocktail",
     "ingredients": [
       {
@@ -1495,7 +1495,7 @@
   },
   {
     "name": "PORTO FLIP (პორტო ფლიპი)",
-    "Image": "Porto_flip.jpg",
+    "Image": "Porto_F lip.jpg",
     "altName": "Porto_flip-cocktail",
     "ingredients": [
       {
@@ -1999,7 +1999,7 @@
   },
   {
     "name": "WHITE LADY (თეთრი ლედი)",
-    "Image": "White_L ady.jpg",
+    "Image": "White_Lady.jpg",
     "altName": "White_lady-cocktail",
     "ingredients": [
       {
@@ -2050,7 +2050,7 @@
   {
     "name": "YELLOW BIRD (ყვითელი ჩიტი)",
     "Image": "Yellow-bird.jpg",
-    "altName": "Yellow-bird-cocktail",
+    "altName": "Yellow-Bird-cocktail",
     "ingredients": [
       {
         "value": "რომი Bacardi Superior - 30 მლ"
