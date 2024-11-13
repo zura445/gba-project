@@ -14,7 +14,7 @@ const MainStUdy = () => {
     setIsOpen(true);
   };
 
-  const courseDisciplines = ["Bartending", "BAR MANAGEMENT", "Barista"];
+  const courseDisciplines = ["Bartending", "Bar management", "Barista"];
 
   return (
     <section>
