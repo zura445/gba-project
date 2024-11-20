@@ -8,6 +8,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "./Gallery.css";
+import { log } from "console";
 
 const Gallery = () => {
   const [showGallery, setShowGallery] = useState(false);
