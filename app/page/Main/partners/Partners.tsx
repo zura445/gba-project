@@ -1,48 +1,49 @@
 import React from "react";
-import Image from "next/image";
+// import Image from "next/image";
 
-const partnersListData = [
-  // {
-  //   partnersTitle: "საქართველოს ბარმენთა ასოციაციის პარტნიორები",
-  //   imageGagra: "gagra.png",
-  //   gagraAlt: "image-gagra",
-  //   descName: "გაგრა+",
-  // },
-  // {
-  //   imageGagra: "axali-talga.jpg",
-  //   gagraAlt: "image-axali-talga",
-  //   descName: "ახალი ტალღა",
-  // },
-  // {
-  //   imageGagra: "black-see.jpg",
-  //   gagraAlt: "image-black-see",
-  //   descName: "კოლეჯი ბლექსი",
-  // },
-  // {
-  //   imageGagra: "image-bagrationi.jpg",
-  //   gagraAlt: "image-nabeglavi",
-  //   descName: "ნაბეღლავი",
-  // },
-];
-interface Category {
-  partnersTitle?: string;
-  imageGagra?: string;
-  gagraAlt?: string;
-  descName?: string;
-}
+// const partnersListData = [
+//   {
+//     partnersTitle: "საქართველოს ბარმენთა ასოციაციის პარტნიორები",
+//     imageGagra: "gagra.png",
+//     gagraAlt: "image-gagra",
+//     descName: "გაგრა+",
+//   },
+//   {
+//     imageGagra: "axali-talga.jpg",
+//     gagraAlt: "image-axali-talga",
+//     descName: "ახალი ტალღა",
+//   },
+//   {
+//     imageGagra: "black-see.jpg",
+//     gagraAlt: "image-black-see",
+//     descName: "კოლეჯი ბლექსი",
+//   },
+
+//   {
+//     imageGagra: "image-bagrationi.jpg",
+//     gagraAlt: "image-nabeglavi",
+//     descName: "ნაბეღლავი",
+//   },
+// ];
+// interface Category {
+//   partnersTitle?: string;
+//   imageGagra?: string;
+//   gagraAlt?: string;
+//   descName?: string;
+// }
 
 const Partners = () => {
-  const partnersList: Category[] = partnersListData;
+  // const partnersList: Category[] = partnersListData;
 
-  console.log(partnersListData);
+  // console.log(partnersListData);
 
-  if (partnersList.length === 0) {
-    return null;
-  }
+  // if (partnersList.length === 0) {
+  //   return null;
+  // }
 
   return (
     <section>
-      <h1 className="text-3xl text-white">
+      {/* <h1 className="text-3xl text-white">
         {(partnersList[0] as Category).partnersTitle}
       </h1>
       <div className="flex justify-between mt-4 flex-wrap">
@@ -58,7 +59,7 @@ const Partners = () => {
             <p className="text-white">{partner.descName}</p>
           </div>
         ))}
-      </div>
+      </div> */}
     </section>
   );
 };
