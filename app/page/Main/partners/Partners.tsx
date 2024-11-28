@@ -2,28 +2,27 @@ import React from "react";
 import Image from "next/image";
 
 const partnersListData = [
-  {
-    partnersTitle: "საქართველოს ბარმენთა ასოციაციის პარტნიორები",
-    imageGagra: "gagra.png",
-    gagraAlt: "image-gagra",
-    descName: "გაგრა+",
-  },
-  {
-    imageGagra: "axali-talga.jpg",
-    gagraAlt: "image-axali-talga",
-    descName: "ახალი ტალღა",
-  },
-  {
-    imageGagra: "black-see.jpg",
-    gagraAlt: "image-black-see",
-    descName: "კოლეჯი ბლექსი",
-  },
-
-  {
-    imageGagra: "image-bagrationi.jpg",
-    gagraAlt: "image-nabeglavi",
-    descName: "ნაბეღლავი",
-  },
+  // {
+  //   partnersTitle: "საქართველოს ბარმენთა ასოციაციის პარტნიორები",
+  //   imageGagra: "gagra.png",
+  //   gagraAlt: "image-gagra",
+  //   descName: "გაგრა+",
+  // },
+  // {
+  //   imageGagra: "axali-talga.jpg",
+  //   gagraAlt: "image-axali-talga",
+  //   descName: "ახალი ტალღა",
+  // },
+  // {
+  //   imageGagra: "black-see.jpg",
+  //   gagraAlt: "image-black-see",
+  //   descName: "კოლეჯი ბლექსი",
+  // },
+  // {
+  //   imageGagra: "image-bagrationi.jpg",
+  //   gagraAlt: "image-nabeglavi",
+  //   descName: "ნაბეღლავი",
+  // },
 ];
 interface Category {
   partnersTitle?: string;
